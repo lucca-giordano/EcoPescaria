@@ -16,7 +16,7 @@ scale = Vector2(36, 20.25)
 texture = ExtResource("2_d6ao3")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-position = Vector2(67, 48)
+position = Vector2(466, 211)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(49, 6)
