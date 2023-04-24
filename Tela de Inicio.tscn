@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://bn76y82icim47"]
+
+[ext_resource type="Texture2D" uid="uid://c8pouxf8rle8t" path="res://assets/background.png" id="1_0qbau"]
+[ext_resource type="Script" path="res://script/ButtonCred.cs" id="2_t8ndk"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_wmeme"]
+font_size = 81
+
+[sub_resource type="LabelSettings" id="LabelSettings_16grd"]
+font_size = 39
+
+[node name="Tela de Inicio" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(36, 20.25)
+texture = ExtResource("1_0qbau")
+
+[node name="ButtonCred" type="Button" parent="."]
+offset_left = 362.0
+offset_top = 503.0
+offset_right = 789.0
+offset_bottom = 583.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "Tela de Créditos"
+flat = true
+script = ExtResource("2_t8ndk")
+
+[node name="Titulo" type="Label" parent="."]
+offset_right = 1152.0
+offset_bottom = 114.0
+text = "EcoPescaria!!"
+label_settings = SubResource("LabelSettings_wmeme")
+horizontal_alignment = 1
+
+[node name="Descrição" type="Label" parent="."]
+offset_top = 101.0
+offset_right = 1152.0
+offset_bottom = 209.0
+text = "Pesque consciente, não deixe os peixes serem extintos!!!"
+label_settings = SubResource("LabelSettings_16grd")
+horizontal_alignment = 1
+
+[connection signal="pressed" from="ButtonCred" to="ButtonCred" method="_on_pressed"]
