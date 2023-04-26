@@ -1,21 +1,22 @@
 2a60927148abd1d33b818b535e306557
-::res://::1682505433
-Iniciar.cs::CSharpScript::-1::1682505096::0::1::::<><>::
-JogoPrincipal.tscn::PackedScene::5651505524893259167::1682505433::0::1::::<><>::res://script/JogoPrincipal.cs<>uid://c8pouxf8rle8t<>uid://bcgxb0ojjky6w
+::res://::1682505743
+JogoPrincipal.tscn::PackedScene::5651505524893259167::1682505680::0::1::::<><>::res://script/JogoPrincipal.cs<>uid://c8pouxf8rle8t<>uid://bcgxb0ojjky6w
 README.md::TextFile::-1::1682505096::0::1::::<><>::
 Tela de Créditos.tscn::PackedScene::1132844880698187348::1682505096::0::1::::<><>::uid://c8pouxf8rle8t<>res://script/Voltar.cs
-Tela de Inicio.tscn::PackedScene::3366862600293672138::1682505524::0::1::::<><>::uid://c8pouxf8rle8t<>res://script/ButtonCred.cs<>res://Iniciar.cs
-::res://assets/::1682505096
+Tela de Inicio.tscn::PackedScene::6997346043068974461::1682505680::0::1::::<><>::uid://c8pouxf8rle8t<>res://script/ButtonCred.cs<>res://script/Iniciar.cs
+::res://assets/::1682508869
 Atum.png::CompressedTexture2D::7445138934236268648::1682505096::1682505096::1::::<><>::
 background.png::CompressedTexture2D::7120925844812596045::1682505096::1682505096::1::::<><>::
+Cascudo.png::CompressedTexture2D::8470908236217185963::1682508869::1682508869::1::::<><>::
 Cursor.png::CompressedTexture2D::2540584249253441172::1682505096::1682505096::1::::<><>::
 Dourado.png::CompressedTexture2D::249300520534077123::1682505096::1682505096::1::::<><>::
 Salmao.png::CompressedTexture2D::4393521822216196584::1682505096::1682505096::1::::<><>::
 Tainha.png::CompressedTexture2D::5311665899125835007::1682505096::1682505096::1::::<><>::
 Tilapia.png::CompressedTexture2D::1720936354031029563::1682505096::1682505096::1::::<><>::
 Wall.png::CompressedTexture2D::3195095220131579583::1682505096::1682505096::1::::<><>::
-::res://script/::1682505096
+::res://script/::1682505524
 ButtonCred.cs::CSharpScript::-1::1682505096::0::1::::<><>::
+Iniciar.cs::CSharpScript::-1::1682505096::0::1::::<><>::
 Jogar.cs::CSharpScript::-1::1682505096::0::1::::<><>::
 JogoPrincipal.cs::CSharpScript::-1::1682505096::0::1::::<><>::
 Voltar.cs::CSharpScript::-1::1682505096::0::1::::<><>::

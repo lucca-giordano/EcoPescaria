@@ -23,5 +23,5 @@ position = Vector2(49, 6)
 shape = SubResource("RectangleShape2D_jdbj5")
 
 [node name="Cursor" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(107, 72)
+position = Vector2(91, 48)
 texture = ExtResource("3_vuvnr")
