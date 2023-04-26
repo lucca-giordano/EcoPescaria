@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://biwwifxnef1hk"
-path="res://.godot/imported/Peixe Pedra.png-8d3c1ec9cbfa75d96ccabd0d2f6c23cf.ctex"
+uid="uid://cmmm43lyoia3t"
+path="res://.godot/imported/frente - UI.png-c174b709994fd0bb0d29a016bb720550.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Peixe Pedra.png"
-dest_files=["res://.godot/imported/Peixe Pedra.png-8d3c1ec9cbfa75d96ccabd0d2f6c23cf.ctex"]
+source_file="res://assets/background/frente - UI.png"
+dest_files=["res://.godot/imported/frente - UI.png-c174b709994fd0bb0d29a016bb720550.ctex"]
 
 [params]
 

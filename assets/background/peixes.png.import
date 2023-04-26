@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dku0qq18sipi3"
-path="res://.godot/imported/Fundo da Fase.png-74aac6fc44b83e5171dcfa99bda1c768.ctex"
+uid="uid://laykmorepmbj"
+path="res://.godot/imported/peixes.png-916ee5cfa935a606f9a10ab477b0f811.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Fundo da Fase.png"
-dest_files=["res://.godot/imported/Fundo da Fase.png-74aac6fc44b83e5171dcfa99bda1c768.ctex"]
+source_file="res://assets/background/peixes.png"
+dest_files=["res://.godot/imported/peixes.png-916ee5cfa935a606f9a10ab477b0f811.ctex"]
 
 [params]
 
