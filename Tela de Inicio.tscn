@@ -1,8 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bn76y82icim47"]
+[gd_scene load_steps=6 format=3 uid="uid://c6xtjcwlplth2"]
 
 [ext_resource type="Texture2D" uid="uid://c8pouxf8rle8t" path="res://assets/background.png" id="1_0qbau"]
 [ext_resource type="Script" path="res://script/ButtonCred.cs" id="2_t8ndk"]
-[ext_resource type="Script" path="res://Iniciar.cs" id="3_xp4vi"]
+[ext_resource type="Script" path="res://script/Iniciar.cs" id="3_mf16c"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_wmeme"]
 font_size = 81
@@ -54,7 +54,7 @@ theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 48
 text = "Iniciar!!"
 flat = true
-script = ExtResource("3_xp4vi")
+script = ExtResource("3_mf16c")
 
 [connection signal="pressed" from="ButtonCred" to="ButtonCred" method="_on_pressed"]
 [connection signal="pressed" from="Iniciar" to="ButtonCred" method="_on_button_pressed"]

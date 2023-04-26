@@ -1,10 +1,10 @@
 2a60927148abd1d33b818b535e306557
-::res://::1682505214
+::res://::1682505433
 Iniciar.cs::CSharpScript::-1::1682505096::0::1::::<><>::
-JogoPrincipal.tscn::PackedScene::5651505524893259167::1682505096::0::1::::<><>::res://script/JogoPrincipal.cs<>uid://c8pouxf8rle8t<>uid://bcgxb0ojjky6w
+JogoPrincipal.tscn::PackedScene::5651505524893259167::1682505433::0::1::::<><>::res://script/JogoPrincipal.cs<>uid://c8pouxf8rle8t<>uid://bcgxb0ojjky6w
 README.md::TextFile::-1::1682505096::0::1::::<><>::
 Tela de Créditos.tscn::PackedScene::1132844880698187348::1682505096::0::1::::<><>::uid://c8pouxf8rle8t<>res://script/Voltar.cs
-Tela de Inicio.tscn::PackedScene::3366862600293672138::1682505096::0::1::::<><>::uid://c8pouxf8rle8t<>res://script/ButtonCred.cs<>res://Iniciar.cs
+Tela de Inicio.tscn::PackedScene::3366862600293672138::1682505524::0::1::::<><>::uid://c8pouxf8rle8t<>res://script/ButtonCred.cs<>res://Iniciar.cs
 ::res://assets/::1682505096
 Atum.png::CompressedTexture2D::7445138934236268648::1682505096::1682505096::1::::<><>::
 background.png::CompressedTexture2D::7120925844812596045::1682505096::1682505096::1::::<><>::
