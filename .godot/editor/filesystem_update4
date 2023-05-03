@@ -1,4 +1,5 @@
 res://JogoPrincipal.tscn
 res://Tela de Créditos.tscn
 res://Tela de Inicio.tscn
+res://script/JogoPrincipal.cs
 res://script/Estacoes.cs

@@ -1,11 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://cmrvp8wwoljln"]
+[gd_scene load_steps=6 format=3 uid="uid://cmrvp8wwoljln"]
 
 [ext_resource type="Script" path="res://script/JogoPrincipal.cs" id="1_gotlc"]
 [ext_resource type="Texture2D" uid="uid://bcnomlbgmf347" path="res://assets/background/fundo - fundo.png" id="3_th8vb"]
 [ext_resource type="Texture2D" uid="uid://d4b1ne6rohurk" path="res://assets/background/fundo - frente.png" id="4_ev8w3"]
 [ext_resource type="Texture2D" uid="uid://bowi76xmtnhr7" path="res://assets/background/fundo - UI.png" id="5_5ttmj"]
 [ext_resource type="Texture2D" uid="uid://cmmm43lyoia3t" path="res://assets/background/frente - UI.png" id="6_j8qgx"]
-[ext_resource type="Script" path="res://script/Estacoes.cs" id="6_uv45q"]
 
 [node name="JogoPrincipal" type="Node2D"]
 script = ExtResource("1_gotlc")
@@ -26,5 +25,6 @@ texture = ExtResource("5_5ttmj")
 position = Vector2(960, 540)
 texture = ExtResource("6_j8qgx")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-script = ExtResource("6_uv45q")
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[connection signal="draw" from="CharacterBody2D" to="." method="_on_character_body_2d_draw"]
