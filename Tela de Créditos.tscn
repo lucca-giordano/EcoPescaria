@@ -1,6 +1,5 @@
-[gd_scene load_steps=5 format=3 uid="uid://qe0134mk076o"]
+[gd_scene load_steps=4 format=3 uid="uid://qe0134mk076o"]
 
-[ext_resource type="Texture2D" uid="uid://c8pouxf8rle8t" path="res://assets/background.png" id="1_4otm0"]
 [ext_resource type="Script" path="res://script/Voltar.cs" id="2_0aysn"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_kk6mk"]
@@ -10,11 +9,6 @@ font_size = 45
 font_size = 41
 
 [node name="Tela de Créditos" type="Node2D"]
-
-[node name="Background" type="Sprite2D" parent="."]
-position = Vector2(576, 324)
-scale = Vector2(36, 20.25)
-texture = ExtResource("1_4otm0")
 
 [node name="Titulo" type="Label" parent="."]
 offset_right = 1153.0

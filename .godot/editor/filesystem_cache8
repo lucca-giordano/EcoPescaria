@@ -1,29 +1,34 @@
 2a60927148abd1d33b818b535e306557
-::res://::1682630175
-JogoPrincipal.tscn::PackedScene::5651505524893259167::1682542186::0::1::::<><>::res://script/JogoPrincipal.cs<>res://assets/background.png<>uid://bcnomlbgmf347<>uid://d4b1ne6rohurk<>uid://bowi76xmtnhr7<>uid://cmmm43lyoia3t
+::res://::1683134185
+JogoPrincipal.tscn::PackedScene::5651505524893259167::1682640168::0::1::::<><>::res://script/JogoPrincipal.cs<>uid://bcnomlbgmf347<>uid://d4b1ne6rohurk<>uid://bowi76xmtnhr7<>uid://cmmm43lyoia3t<>res://script/Estacoes.cs
 README.md::TextFile::-1::1682374039::0::1::::<><>::
-Tela de Créditos.tscn::PackedScene::1132844880698187348::1682374039::0::1::::<><>::uid://c8pouxf8rle8t<>res://script/Voltar.cs
-Tela de Inicio.tscn::PackedScene::6997346043068974461::1682540511::0::1::::<><>::uid://c8pouxf8rle8t<>res://script/ButtonCred.cs<>res://script/Iniciar.cs
-::res://assets/::1682541226
-Atum.png::CompressedTexture2D::7445138934236268648::1682374039::1682374136::1::::<><>::
-Cascudo.png::CompressedTexture2D::8470908236217185963::1682531541::1682531541::1::::<><>::
+Tela de Créditos.tscn::PackedScene::1132844880698187348::1682640168::0::1::::<><>::res://script/Voltar.cs
+Tela de Inicio.tscn::PackedScene::6997346043068974461::1682640168::0::1::::<><>::res://script/ButtonCred.cs<>res://script/Iniciar.cs
+::res://assets/::1682637612
 Cursor.png::CompressedTexture2D::2540584249253441172::1682374039::1682374136::1::::<><>::
-Dourado.png::CompressedTexture2D::249300520534077123::1682374039::1682374136::1::::<><>::
-Peixe Lanterna.png::CompressedTexture2D::2994698102322261544::1682531541::1682541210::1::::<><>::
-Peixe Leão.png::CompressedTexture2D::7309470147738532239::1682531541::1682531541::1::::<><>::
-Peixe Palhaço.png::CompressedTexture2D::6089272050766367891::1682540652::1682540653::1::::<><>::
-Salmao.png::CompressedTexture2D::4393521822216196584::1682374039::1682374136::1::::<><>::
-Tainha.png::CompressedTexture2D::5311665899125835007::1682374039::1682374136::1::::<><>::
-Tilapia.png::CompressedTexture2D::1720936354031029563::1682374039::1682374136::1::::<><>::
-Wall.png::CompressedTexture2D::3195095220131579583::1682374039::1682374136::1::::<><>::
-::res://assets/background/::1682540394
-frente - UI.png::CompressedTexture2D::5640661904783874475::1682540394::1682540394::1::::<><>::
-fundo - frente.png::CompressedTexture2D::9198405010242741012::1682540394::1682540394::1::::<><>::
-fundo - fundo.png::CompressedTexture2D::2554507328788066642::1682540394::1682540394::1::::<><>::
-fundo - UI.png::CompressedTexture2D::3415025350887449046::1682540394::1682540394::1::::<><>::
-peixes.png::CompressedTexture2D::773552998469614899::1682540394::1682540394::1::::<><>::
-::res://script/::1682531541
+::res://assets/background/::1682638318
+frente - UI.png::CompressedTexture2D::5640661904783874475::1682643265::1682638318::1::::<><>::
+fundo - frente.png::CompressedTexture2D::9198405010242741012::1682636151::1682636153::1::::<><>::
+fundo - fundo.png::CompressedTexture2D::2554507328788066642::1682636150::1682636153::1::::<><>::
+fundo - UI.png::CompressedTexture2D::3415025350887449046::1682636149::1682636153::1::::<><>::
+::res://assets/estacoes/::1682637951
+Inverno.png::CompressedTexture2D::5023555188338590543::1682637906::1682637907::1::::<><>::
+Outono.png::CompressedTexture2D::2906142830199395191::1682637951::1682637951::1::::<><>::
+Primavera.png::CompressedTexture2D::8180036974798583911::1682637950::1682637951::1::::<><>::
+Verao.png::CompressedTexture2D::1910137664252091312::1682637949::1682637951::1::::<><>::
+::res://assets/peixes/::1682637597
+Atum.png::CompressedTexture2D::7445138934236268648::1682637108::1682637593::1::::<><>::
+Cascudo.png::CompressedTexture2D::8470908236217185963::1682637109::1682637593::1::::<><>::
+Dourado.png::CompressedTexture2D::249300520534077123::1682636974::1682637597::1::::<><>::
+Peixe Lanterna.png::CompressedTexture2D::2994698102322261544::1682637109::1682637597::1::::<><>::
+Peixe Leão.png::CompressedTexture2D::7309470147738532239::1682637110::1682637597::1::::<><>::
+Peixe Palhaço.png::CompressedTexture2D::6089272050766367891::1682636882::1682637597::1::::<><>::
+Salmao.png::CompressedTexture2D::4393521822216196584::1682637110::1682637597::1::::<><>::
+Tainha.png::CompressedTexture2D::5311665899125835007::1682637111::1682637597::1::::<><>::
+Tilapia.png::CompressedTexture2D::1720936354031029563::1682637561::1682637597::1::::<><>::
+::res://script/::1682639799
 ButtonCred.cs::CSharpScript::-1::1682374361::0::1::::<><>::
+Estacoes.cs::CSharpScript::-1::1682640265::0::1::::<><>::
 Iniciar.cs::CSharpScript::-1::1682531541::0::1::::<><>::
 Jogar.cs::CSharpScript::-1::1682374039::0::1::::<><>::
 JogoPrincipal.cs::CSharpScript::-1::1682374205::0::1::::<><>::

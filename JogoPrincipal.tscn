@@ -1,32 +1,30 @@
 [gd_scene load_steps=7 format=3 uid="uid://cmrvp8wwoljln"]
 
 [ext_resource type="Script" path="res://script/JogoPrincipal.cs" id="1_gotlc"]
-[ext_resource type="Texture2D" path="res://assets/background.png" id="2_d6ao3"]
 [ext_resource type="Texture2D" uid="uid://bcnomlbgmf347" path="res://assets/background/fundo - fundo.png" id="3_th8vb"]
 [ext_resource type="Texture2D" uid="uid://d4b1ne6rohurk" path="res://assets/background/fundo - frente.png" id="4_ev8w3"]
 [ext_resource type="Texture2D" uid="uid://bowi76xmtnhr7" path="res://assets/background/fundo - UI.png" id="5_5ttmj"]
 [ext_resource type="Texture2D" uid="uid://cmmm43lyoia3t" path="res://assets/background/frente - UI.png" id="6_j8qgx"]
+[ext_resource type="Script" path="res://script/Estacoes.cs" id="6_uv45q"]
 
 [node name="JogoPrincipal" type="Node2D"]
 script = ExtResource("1_gotlc")
 
-[node name="Background" type="Sprite2D" parent="."]
-position = Vector2(960, 540)
-scale = Vector2(60, 33.75)
-texture = ExtResource("2_d6ao3")
-
 [node name="Fundo-Fundo" type="Sprite2D" parent="."]
-position = Vector2(780, 717)
+position = Vector2(960, 540)
 texture = ExtResource("3_th8vb")
 
 [node name="Fundo-Frente" type="Sprite2D" parent="."]
-position = Vector2(780, 717)
+position = Vector2(960, 540)
 texture = ExtResource("4_ev8w3")
 
 [node name="Fundo-Ui" type="Sprite2D" parent="."]
-position = Vector2(780, 717)
+position = Vector2(960, 540)
 texture = ExtResource("5_5ttmj")
 
 [node name="Frente-Ui" type="Sprite2D" parent="."]
-position = Vector2(780, 717)
+position = Vector2(960, 540)
 texture = ExtResource("6_j8qgx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+script = ExtResource("6_uv45q")

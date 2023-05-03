@@ -1,6 +1,5 @@
-[gd_scene load_steps=6 format=3 uid="uid://c6xtjcwlplth2"]
+[gd_scene load_steps=5 format=3 uid="uid://c6xtjcwlplth2"]
 
-[ext_resource type="Texture2D" uid="uid://c8pouxf8rle8t" path="res://assets/background.png" id="1_0qbau"]
 [ext_resource type="Script" path="res://script/ButtonCred.cs" id="2_t8ndk"]
 [ext_resource type="Script" path="res://script/Iniciar.cs" id="3_mf16c"]
 
@@ -11,11 +10,6 @@ font_size = 81
 font_size = 23
 
 [node name="Tela de Inicio" type="Node2D"]
-
-[node name="Background" type="Sprite2D" parent="."]
-position = Vector2(960, 540)
-scale = Vector2(60, 33.75)
-texture = ExtResource("1_0qbau")
 
 [node name="ButtonCred" type="Button" parent="."]
 offset_left = 362.0
