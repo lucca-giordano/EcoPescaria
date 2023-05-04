@@ -1,3 +1,4 @@
 res://Tela de Inicio.tscn
 res://JogoPrincipal.tscn
 res://Tela de Créditos.tscn
+res://script/JogoPrincipal.cs
