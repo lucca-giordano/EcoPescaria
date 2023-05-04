@@ -12,10 +12,10 @@ font_size = 23
 [node name="Tela de Inicio" type="Node2D"]
 
 [node name="ButtonCred" type="Button" parent="."]
-offset_left = 362.0
-offset_top = 503.0
-offset_right = 789.0
-offset_bottom = 583.0
+offset_left = 756.0
+offset_top = 533.0
+offset_right = 1183.0
+offset_bottom = 613.0
 theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 48
@@ -41,10 +41,10 @@ label_settings = SubResource("LabelSettings_0gdta")
 horizontal_alignment = 1
 
 [node name="Iniciar" type="Button" parent="."]
-offset_left = 457.0
-offset_top = 414.0
-offset_right = 675.0
-offset_bottom = 489.0
+offset_left = 851.0
+offset_top = 444.0
+offset_right = 1069.0
+offset_bottom = 519.0
 theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 48

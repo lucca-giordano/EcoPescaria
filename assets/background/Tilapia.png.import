@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckb7bmb66eniq"
-path="res://.godot/imported/Tilapia.png-45535962daa8ca46a471f0c261cfa08a.ctex"
+uid="uid://c3mbu1ebr0gmo"
+path="res://.godot/imported/Tilapia.png-11140b421a6c54dc040e87fbf05f8ab1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/peixes/Tilapia.png"
-dest_files=["res://.godot/imported/Tilapia.png-45535962daa8ca46a471f0c261cfa08a.ctex"]
+source_file="res://assets/background/Tilapia.png"
+dest_files=["res://.godot/imported/Tilapia.png-11140b421a6c54dc040e87fbf05f8ab1.ctex"]
 
 [params]
 
