@@ -11,7 +11,7 @@ font_size = 41
 [node name="Tela de Créditos" type="Node2D"]
 
 [node name="Titulo" type="Label" parent="."]
-offset_right = 1153.0
+offset_right = 1920.0
 offset_bottom = 172.0
 text = "Créditos, EcoPescaria"
 label_settings = SubResource("LabelSettings_kk6mk")
@@ -20,7 +20,7 @@ vertical_alignment = 1
 
 [node name="Créditos" type="Label" parent="."]
 offset_top = 163.0
-offset_right = 1152.0
+offset_right = 1920.0
 offset_bottom = 479.0
 text = "Lucca Giordano
 Vitoria Valente
@@ -31,10 +31,10 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Voltar" type="Button" parent="."]
-offset_left = 485.0
-offset_top = 467.0
-offset_right = 667.0
-offset_bottom = 608.0
+offset_left = 870.0
+offset_top = 447.0
+offset_right = 1052.0
+offset_bottom = 588.0
 theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 57
