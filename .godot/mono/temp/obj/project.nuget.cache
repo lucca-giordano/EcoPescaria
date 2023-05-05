@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ziXVtNplfIviLP/4QWeay+4NFdIHbPG0Yb4Gkle+Gj08nVyZmx35Y71wENjZ6RUPQScO99EyRIM5BuO7raydzQ==",
+  "dgSpecHash": "sJHc0yH1GsKhTjCUEXXQGJauE8bkVrJQPNS0UBAxszVKfvFKp0QYSriYw2FIOzZUN2fP+sWF1Q04QaycRz8faw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\23024522\\Documents\\GitHub\\EcoPescaria\\EcoPescaria.csproj",
+  "projectFilePath": "C:\\Projetos\\EcoPescaria\\EcoPescaria.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\23024522\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.2\\godot.sourcegenerators.4.0.2.nupkg.sha512",
-    "C:\\Users\\23024522\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.2\\godotsharp.4.0.2.nupkg.sha512",
-    "C:\\Users\\23024522\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.2\\godotsharpeditor.4.0.2.nupkg.sha512"
+    "C:\\Users\\lucca\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.2\\godot.sourcegenerators.4.0.2.nupkg.sha512",
+    "C:\\Users\\lucca\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.2\\godotsharp.4.0.2.nupkg.sha512",
+    "C:\\Users\\lucca\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.2\\godotsharpeditor.4.0.2.nupkg.sha512",
+    "C:\\Users\\lucca\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\lucca\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\lucca\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
