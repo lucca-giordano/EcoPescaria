@@ -34,29 +34,36 @@ public partial class JogoPrincipal : Node2D
 		outono.Visible = false;
 		inverno.Visible = false;
 		primavera.Visible = false;
-		
-		atual = estacoesNode[seasonIndex];
-		atual.Visible = true;
 
-		/*
-		while(true){
-			// atualiza a estação atual, deixando uma visivel depois a outra
-			atual = estacoesNode[seasonIndex];
-			atual.Visible = true;
-			seasonIndex++;
-			if(seasonIndex == 4){
-				seasonIndex = 0;
-			}
-		}*/
 
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
+		/*
+		while(1==1){
+		verao.Visible = true;
+		outono.Visible = false;
+		inverno.Visible = false;
+		primavera.Visible = false;
 
+		verao.Visible = false;
+		outono.Visible = true;
+		inverno.Visible = false;
+		primavera.Visible = false;
 
+		verao.Visible = false;
+		outono.Visible = false;
+		inverno.Visible = true;
+		primavera.Visible = false;
 
+		verao.Visible = false;
+		outono.Visible = false;
+		inverno.Visible = false;
+		primavera.Visible = true;
+		}
+		*/
 	}
 	
 	private void _on_sprite_estacao_draw()

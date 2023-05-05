@@ -1,9 +1,9 @@
 2a60927148abd1d33b818b535e306557
-::res://::1683304142
-JogoPrincipal.tscn::PackedScene::5651505524893259167::1683304142::0::1::::<><>::res://script/JogoPrincipal.cs<>uid://bcnomlbgmf347<>uid://d4b1ne6rohurk<>uid://bowi76xmtnhr7<>uid://cmmm43lyoia3t<>uid://2hjxnvg1hjjc<>uid://bhn00oqlufr8j<>uid://cdtphqk6yc0dv<>uid://dosqaqavbkkyp
+::res://::1683308982
+JogoPrincipal.tscn::PackedScene::5651505524893259167::1683308822::0::1::::<><>::res://script/JogoPrincipal.cs<>uid://bcnomlbgmf347<>uid://d4b1ne6rohurk<>uid://bowi76xmtnhr7<>uid://cmmm43lyoia3t<>uid://2hjxnvg1hjjc<>uid://bhn00oqlufr8j<>uid://cdtphqk6yc0dv<>uid://dosqaqavbkkyp
 README.md::TextFile::-1::1682374039::0::1::::<><>::
-Tela de Créditos.tscn::PackedScene::1132844880698187348::1683304142::0::1::::<><>::res://script/Voltar.cs
-Tela de Inicio.tscn::PackedScene::6997346043068974461::1683304142::0::1::::<><>::res://script/ButtonCred.cs<>res://script/Iniciar.cs
+Tela de Créditos.tscn::PackedScene::1132844880698187348::1683308822::0::1::::<><>::res://script/Voltar.cs
+Tela de Inicio.tscn::PackedScene::6997346043068974461::1683308822::0::1::::<><>::res://script/ButtonCred.cs<>res://script/Iniciar.cs
 ::res://assets/::1682637612
 Cursor.png::CompressedTexture2D::2540584249253441172::1682374039::1682374136::1::::<><>::
 ::res://assets/background/::1683305258
@@ -16,7 +16,7 @@ Inverno.png::CompressedTexture2D::5023555188338590543::1682637906::1682637907::1
 Outono.png::CompressedTexture2D::2906142830199395191::1682637951::1682637951::1::::<><>::
 Primavera.png::CompressedTexture2D::8180036974798583911::1682637950::1682637951::1::::<><>::
 Verao.png::CompressedTexture2D::1910137664252091312::1682637949::1682637951::1::::<><>::
-::res://assets/peixes/::1683224673
+::res://assets/peixes/::1683305292
 Atum.png::CompressedTexture2D::7445138934236268648::1682637108::1682637593::1::::<><>::
 Cascudo.png::CompressedTexture2D::8470908236217185963::1682637109::1682637593::1::::<><>::
 Dourado.png::CompressedTexture2D::249300520534077123::1682636974::1682637597::1::::<><>::
@@ -30,5 +30,5 @@ Tilapia.png::CompressedTexture2D::5478739544358120708::1683305290::1683305292::1
 ButtonCred.cs::CSharpScript::-1::1682374361::0::1::::<><>::
 Iniciar.cs::CSharpScript::-1::1682531541::0::1::::<><>::
 Jogar.cs::CSharpScript::-1::1682374039::0::1::::<><>::
-JogoPrincipal.cs::CSharpScript::-1::1683227938::0::1::::<><>::
+JogoPrincipal.cs::CSharpScript::-1::1683308815::0::1::::<><>::
 Voltar.cs::CSharpScript::-1::1682374039::0::1::::<><>::
