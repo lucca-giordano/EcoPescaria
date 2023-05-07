@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dg3kvh34t5l8u"]
+
+[ext_resource type="Script" path="res://scripts/SpawnerDireita.cs" id="1_wc2t7"]
+[ext_resource type="Texture2D" uid="uid://dgx1k5ifjh408" path="res://assets/peixes/Dourado.png" id="2_j4ckq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1rxvk"]
+size = Vector2(112, 112)
+
+[node name="Spawner" type="CharacterBody2D"]
+position = Vector2(977, 502)
+script = ExtResource("1_wc2t7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_1rxvk")
+
+[node name="Dourado" type="Sprite2D" parent="."]
+texture = ExtResource("2_j4ckq")

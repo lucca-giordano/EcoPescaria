@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwlgx4ysxdqw1"]
+
+[ext_resource type="Script" path="res://scripts/TelaCreditos.cs" id="1_a8dyy"]
+
+[node name="Creditos" type="Node2D"]
+script = ExtResource("1_a8dyy")
+
+[node name="LabelTitulo" type="Label" parent="."]
+offset_right = 1920.0
+offset_bottom = 163.0
+theme_override_font_sizes/font_size = 67
+text = "Projeto realizado por:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LabelContent" type="Label" parent="."]
+offset_left = -3.0
+offset_top = 198.0
+offset_right = 1917.0
+offset_bottom = 647.0
+theme_override_font_sizes/font_size = 60
+text = "Lucas Saraiva
+Lucca Giordano
+Ruan Paulo
+Vitoria Valente"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonVoltar" type="Button" parent="."]
+offset_top = 622.0
+offset_right = 1920.0
+offset_bottom = 803.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 67
+text = "Voltar"
+flat = true
+
+[connection signal="pressed" from="ButtonVoltar" to="." method="_on_button_voltar_pressed"]

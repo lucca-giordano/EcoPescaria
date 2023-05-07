@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="EcoPescaria"
-run/main_scene="res://Tela de Inicio.tscn"
+run/main_scene="res://scenes/TelaInicial.tscn"
 config/features=PackedStringArray("4.0", "C#", "Forward Plus")
 
 [display]
@@ -19,6 +19,7 @@ config/features=PackedStringArray("4.0", "C#", "Forward Plus")
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/size/mode=3
+window/size/initial_position_type=0
 
 [dotnet]
 

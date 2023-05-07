@@ -1,3 +1,6 @@
-res://JogoPrincipal.tscn
-res://Tela de Créditos.tscn
-res://Tela de Inicio.tscn
+res://scenes/JogoPrincipal.tscn
+res://scripts/SpawnerDireitaNode.cs
+res://scenes/TelaInicial.tscn
+res://scenes/TelaCreditos.tscn
+res://scenes/Spawner-direita.tscn
+res://scripts/SpawnerDireita.cs
