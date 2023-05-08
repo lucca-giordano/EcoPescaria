@@ -15,3 +15,11 @@ C:\Users\lucca\OneDrive\Área de Trabalho\EcoPescaria\.godot\mono\temp\obj\Debug
 C:\Users\lucca\OneDrive\Área de Trabalho\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.pdb
 C:\Users\lucca\OneDrive\Área de Trabalho\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.genruntimeconfig.cache
 C:\Users\lucca\OneDrive\Área de Trabalho\EcoPescaria\.godot\mono\temp\obj\Debug\ref\EcoPescaria.dll
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.csproj.AssemblyReference.cache
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.AssemblyInfoInputs.cache
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.AssemblyInfo.cs
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.csproj.CoreCompileInputs.cache
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.dll
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\refint\EcoPescaria.dll
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.pdb
