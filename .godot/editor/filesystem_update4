@@ -1,5 +1,1 @@
-res://scenes/TelaInicial.tscn
-res://scripts/SpawnerDireita.cs
-res://scenes/JogoPrincipal.tscn
 res://scenes/Spawner-direita.tscn
-res://scenes/TelaCreditos.tscn
