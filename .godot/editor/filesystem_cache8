@@ -1,4 +1,5 @@
 2a60927148abd1d33b818b535e306557
+<<<<<<< HEAD
 ::res://::1683747835
 README.md::TextFile::-1::1682374039::0::1::::<><>::
 ::res://assets/::1683748577
@@ -44,3 +45,42 @@ SpawnerDireita.cs::CSharpScript::-1::1683746062::0::1::::<><>::
 SpawnerDireitaNode.cs::CSharpScript::-1::1683583146::0::1::::<><>::
 TelaCreditos.cs::CSharpScript::-1::1683583222::0::1::::<><>::
 TelaInicial.cs::CSharpScript::-1::1683493637::0::1::::<><>::
+=======
+::res://::1683727613
+ALGER.TTF::FontFile::7955310119255549110::1683725906::1683725906::1::::<><>::
+cd1d10b6d98ddb8fce79fbba10dd5e30.jpg::CompressedTexture2D::492623787662093924::1683727613::1683727613::1::::<><>::
+DePixelSchmal.otf::FontFile::4065630831863209775::1683726962::1683726963::1::::<><>::
+README.md::TextFile::-1::1683719959::0::1::::<><>::
+Symtext.ttf::FontFile::7317302117896564213::1683726891::1683726811::1::::<><>::
+::res://assets/::1683719959
+Cursor.png::CompressedTexture2D::7619365544580150649::1683719959::1683719959::1::::<><>::
+::res://assets/background/::1683719959
+frente - UI.png::CompressedTexture2D::4900294626043577341::1683719959::1683719959::1::::<><>::
+fundo - frente.png::CompressedTexture2D::5611879039412541621::1683719959::1683719959::1::::<><>::
+fundo - fundo.png::CompressedTexture2D::9052395983689272833::1683719959::1683719959::1::::<><>::
+fundo - UI.png::CompressedTexture2D::3077378645288562098::1683719959::1683719959::1::::<><>::
+::res://assets/estacoes/::1683719959
+Inverno.png::CompressedTexture2D::6257866689276590022::1683719959::1683719959::1::::<><>::
+Outono.png::CompressedTexture2D::6190027502798975188::1683719959::1683719959::1::::<><>::
+Primavera.png::CompressedTexture2D::4757066590598091423::1683719959::1683719959::1::::<><>::
+Verao.png::CompressedTexture2D::5632595672498627882::1683719959::1683719959::1::::<><>::
+::res://assets/peixes/::1683719959
+Atum.png::CompressedTexture2D::8664719189101096797::1683719959::1683719959::1::::<><>::
+Cascudo.png::CompressedTexture2D::8482768284427777027::1683719959::1683719959::1::::<><>::
+Dourado.png::CompressedTexture2D::7629473889300302671::1683719959::1683719959::1::::<><>::
+Peixe Lanterna.png::CompressedTexture2D::2496349797313803731::1683719959::1683719959::1::::<><>::
+Peixe Leão.png::CompressedTexture2D::2427299884866338849::1683719959::1683719959::1::::<><>::
+Peixe Palhaço.png::CompressedTexture2D::1438552798464696226::1683719959::1683719959::1::::<><>::
+Salmao.png::CompressedTexture2D::5799544127304455045::1683719959::1683719959::1::::<><>::
+Tainha.png::CompressedTexture2D::8132143869124127536::1683719959::1683719959::1::::<><>::
+Tilapia.png::CompressedTexture2D::5379465388027259956::1683719959::1683719959::1::::<><>::
+::res://scenes/::1683723553
+JogoPrincipal.tscn::PackedScene::1573479170689492837::1683723553::0::1::::<><>::uid://d18bv0ais24av<>uid://cl7o3fay7a86t<>uid://bj3x8hbk8hs2m<>uid://cb20ev36iwpfh
+TelaCreditos.tscn::PackedScene::8726531702728255246::1683723553::0::1::::<><>::res://scripts/TelaCreditos.cs
+TelaInicial.tscn::PackedScene::8834606001094902098::1683723553::0::1::::<><>::res://scripts/TelaInicial.cs
+::res://scripts/::1683719959
+SpawnerDireita.cs::CSharpScript::-1::1683719959::0::1::::<><>::
+SpawnerDireitaNode.cs::CSharpScript::-1::1683719959::0::1::::<><>::
+TelaCreditos.cs::CSharpScript::-1::1683719959::0::1::::<><>::
+TelaInicial.cs::CSharpScript::-1::1683719959::0::1::::<><>::
+>>>>>>> pr/1

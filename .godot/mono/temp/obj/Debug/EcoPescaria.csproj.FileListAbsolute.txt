@@ -23,6 +23,7 @@ C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.csproj.CoreCompil
 C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.dll
 C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\refint\EcoPescaria.dll
 C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.pdb
+<<<<<<< HEAD
 C:\Users\23024522\Documents\GitHub\EcoPescaria\.godot\mono\temp\bin\Debug\EcoPescaria.deps.json
 C:\Users\23024522\Documents\GitHub\EcoPescaria\.godot\mono\temp\bin\Debug\EcoPescaria.runtimeconfig.json
 C:\Users\23024522\Documents\GitHub\EcoPescaria\.godot\mono\temp\bin\Debug\EcoPescaria.dll
@@ -49,3 +50,13 @@ C:\Projetos\EcoPescaria\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
 C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.csproj.CopyComplete
 C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.genruntimeconfig.cache
 C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\ref\EcoPescaria.dll
+=======
+C:\Users\23024986\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.csproj.AssemblyReference.cache
+C:\Users\23024986\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23024986\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.AssemblyInfoInputs.cache
+C:\Users\23024986\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.AssemblyInfo.cs
+C:\Users\23024986\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.csproj.CoreCompileInputs.cache
+C:\Users\23024986\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.dll
+C:\Users\23024986\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\refint\EcoPescaria.dll
+C:\Users\23024986\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.pdb
+>>>>>>> pr/1
