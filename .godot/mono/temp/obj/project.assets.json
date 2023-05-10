@@ -11,14 +11,10 @@
       "GodotSharp/4.0.2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/GodotSharp.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/GodotSharp.dll": {}
         },
         "runtime": {
-          "lib/net6.0/GodotSharp.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/GodotSharp.dll": {}
         }
       },
       "GodotSharpEditor/4.0.2": {
@@ -27,14 +23,10 @@
           "GodotSharp": "4.0.2"
         },
         "compile": {
-          "lib/net6.0/GodotSharpEditor.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/GodotSharpEditor.dll": {}
         },
         "runtime": {
-          "lib/net6.0/GodotSharpEditor.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/GodotSharpEditor.dll": {}
         }
       }
     }
@@ -85,29 +77,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucca\\.nuget\\packages\\": {},
-    "C:\\Users\\lucca\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
+    "C:\\Users\\23024986\\.nuget\\packages\\": {},
+    "C:\\Users\\23024986\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\EcoPescaria\\EcoPescaria.csproj",
+      "projectUniqueName": "C:\\Users\\23024986\\Documents\\GitHub\\EcoPescaria\\EcoPescaria.csproj",
       "projectName": "EcoPescaria",
-      "projectPath": "C:\\Projetos\\EcoPescaria\\EcoPescaria.csproj",
-      "packagesPath": "C:\\Users\\lucca\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\EcoPescaria\\.godot\\mono\\temp\\obj\\",
+      "projectPath": "C:\\Users\\23024986\\Documents\\GitHub\\EcoPescaria\\EcoPescaria.csproj",
+      "packagesPath": "C:\\Users\\23024986\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\23024986\\Documents\\GitHub\\EcoPescaria\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\lucca\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        "C:\\Users\\23024986\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lucca\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Users\\lucca\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+        "C:\\Users\\23024986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\23024986\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -145,31 +142,16 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

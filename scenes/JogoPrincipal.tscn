@@ -1,20 +1,15 @@
-[gd_scene load_steps=6 format=3 uid="uid://wog8bxtrqkh6"]
+[gd_scene load_steps=5 format=3 uid="uid://wog8bxtrqkh6"]
 
 [ext_resource type="Texture2D" uid="uid://d18bv0ais24av" path="res://assets/background/fundo - fundo.png" id="1_fyo12"]
 [ext_resource type="Texture2D" uid="uid://cl7o3fay7a86t" path="res://assets/background/fundo - frente.png" id="2_4n3wa"]
 [ext_resource type="Texture2D" uid="uid://bj3x8hbk8hs2m" path="res://assets/background/fundo - UI.png" id="3_r7eom"]
 [ext_resource type="Texture2D" uid="uid://cb20ev36iwpfh" path="res://assets/background/frente - UI.png" id="4_5kdai"]
-[ext_resource type="Script" path="res://scripts/SpawnerDireitaNode.cs" id="5_0likg"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Fundo-Fundo" type="Sprite2D" parent="."]
 position = Vector2(960, 540)
 texture = ExtResource("1_fyo12")
-
-[node name="SpawnerDireita" type="Node2D" parent="."]
-position = Vector2(1286, 295)
-script = ExtResource("5_0likg")
 
 [node name="Fundo-Frente" type="Sprite2D" parent="."]
 position = Vector2(960, 540)

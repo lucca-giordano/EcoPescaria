@@ -1,1 +1,4 @@
+res://scenes/TelaInicial.tscn
+res://scenes/JogoPrincipal.tscn
 res://scenes/Spawner-direita.tscn
+res://scenes/TelaCreditos.tscn
