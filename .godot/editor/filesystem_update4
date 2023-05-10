@@ -5,3 +5,4 @@ res://objects/BG.tscn
 res://scenes/TelaCreditos.tscn
 res://scripts/BG.cs
 res://scripts/TelaInicial.cs
+res://scripts/Player.cs

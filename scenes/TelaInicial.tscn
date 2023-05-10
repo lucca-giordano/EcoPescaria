@@ -58,3 +58,6 @@ theme_override_fonts/font = ExtResource("2_bt4su")
 theme_override_font_sizes/font_size = 40
 text = "Creditos"
 flat = true
+
+[connection signal="pressed" from="ButtonIniciar" to="." method="_on_button_iniciar_pressed"]
+[connection signal="pressed" from="ButtonCredito" to="." method="_on_button_credito_pressed"]

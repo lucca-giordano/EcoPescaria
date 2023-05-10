@@ -45,3 +45,5 @@ zoom = Vector2(2.208, 2.208)
 limit_left = 16
 limit_right = 2288
 limit_bottom = 609
+
+[connection signal="ready" from="." to="." method="_on_ready"]

@@ -1,5 +1,5 @@
 2a60927148abd1d33b818b535e306557
-::res://::1683749356
+::res://::1683755884
 README.md::TextFile::-1::1682374039::0::1::::<><>::
 ::res://assets/::1683749161
 Cursor.png::CompressedTexture2D::7619365544580150649::1683492832::1683492832::1::::<><>::
@@ -16,7 +16,7 @@ Outono.png::CompressedTexture2D::6190027502798975188::1683492832::1683492832::1:
 Primavera.png::CompressedTexture2D::4757066590598091423::1683492832::1683492832::1::::<><>::
 Verao.png::CompressedTexture2D::5632595672498627882::1683492832::1683492832::1::::<><>::
 ::res://assets/peixes/::1683502000
-Atum.png::CompressedTexture2D::8664719189101096797::1683492832::1683492832::1::::<><>::
+Atum.png::CompressedTexture2D::8664719189101096797::1683762876::1683762877::1::::<><>::
 Cascudo.png::CompressedTexture2D::8482768284427777027::1683501969::1683502000::1::::<><>::
 Dourado.png::CompressedTexture2D::7629473889300302671::1683492832::1683492832::1::::<><>::
 Peixe Lanterna.png::CompressedTexture2D::2496349797313803731::1683492832::1683492832::1::::<><>::
@@ -30,19 +30,19 @@ Idle (16 x 16).png::CompressedTexture2D::18789120541056425::1683749161::16837491
 Run_&_Jump (16 x 16).png::CompressedTexture2D::1552026663093912187::1683749161::1683749161::1::::<><>::
 ::res://assets/tilesets/::1683749161
 Tileset.png::CompressedTexture2D::2104216759537602899::1683749161::1683749161::1::::<><>::
-::res://files/::1683749356
+::res://files/::1683754638
 Symtext.ttf::FontFile::7317302117896564213::1683749166::1683749356::1::::<><>::
-::res://objects/::1683749326
+::res://objects/::1683755886
 BG.tscn::PackedScene::3082594794876516731::1683749161::0::1::::<><>::uid://l6ko4usm7fqw<>res://scripts/BG.cs<>uid://bveucn4qse3gd<>uid://djsp36uatcwyo
-Player.tscn::PackedScene::6110584423149374275::1683749326::0::1::::<><>::res://scripts/Player.cs<>uid://jdpo51lpayr
-::res://scenes/::1683749346
-JogoPrincipal.tscn::PackedScene::-1::1683749166::0::1::::<><>::
-TelaCreditos.tscn::PackedScene::8726531702728255246::1683749161::0::1::::<><>::res://scripts/TelaCreditos.cs
-TelaInicial.tscn::PackedScene::292487745430475371::1683749346::0::1::::<><>::uid://havpay5avdou
-::res://scripts/::1683749161
+Player.tscn::PackedScene::6110584423149374275::1683755886::0::1::::<><>::res://scripts/Player.cs<>uid://jdpo51lpayr
+::res://scenes/::1683755886
+JogoPrincipal.tscn::PackedScene::981221334173225200::1683755886::0::1::::<><>::
+TelaCreditos.tscn::PackedScene::8726531702728255246::1683755886::0::1::::<><>::res://scripts/TelaCreditos.cs
+TelaInicial.tscn::PackedScene::292487745430475371::1683755886::0::1::::<><>::res://scripts/TelaInicial.cs<>uid://havpay5avdou<>uid://dcis5qyihay6h
+::res://scripts/::1683755799
 BG.cs::CSharpScript::-1::1683749161::0::1::::<><>::
-Player.cs::CSharpScript::-1::1683749161::0::1::::<><>::
+Player.cs::CSharpScript::-1::1683754810::0::1::::<><>::
 SpawnerDireita.cs::CSharpScript::-1::1683749161::0::1::::<><>::
 SpawnerDireitaNode.cs::CSharpScript::-1::1683583146::0::1::::<><>::
 TelaCreditos.cs::CSharpScript::-1::1683583222::0::1::::<><>::
-TelaInicial.cs::CSharpScript::-1::1683493637::0::1::::<><>::
+TelaInicial.cs::CSharpScript::-1::1683755799::0::1::::<><>::

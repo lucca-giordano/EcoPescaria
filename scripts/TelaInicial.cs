@@ -12,4 +12,15 @@ public partial class TelaInicial : Node2D
 	public override void _Process(double delta)
 	{
 	}
+	
+	private void _on_button_iniciar_pressed()
+	{
+		GetTree().ChangeSceneToFile("res://scenes/JogoPrincipal.tscn");
+	}
+
+
+	private void _on_button_credito_pressed()
+	{
+		GetTree().ChangeSceneToFile("res://scenes/TelaCreditos.tscn");
+	}
 }
