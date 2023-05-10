@@ -1,6 +1,11 @@
+ParallaxLayer
+ParallaxBackground
+Sprite2D
+Camera2D
 AnimatedSprite2D
 CollisionShape2D
-Node2D
 CharacterBody2D
+TileMap
+Node2D
 Button
 Label

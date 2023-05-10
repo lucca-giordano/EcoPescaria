@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://dg3kvh34t5l8u"]
+[gd_scene load_steps=13 format=3 uid="uid://d24rjxwg2rbo5"]
 
 [ext_resource type="Script" path="res://scripts/SpawnerDireita.cs" id="1_wc2t7"]
 [ext_resource type="Texture2D" uid="uid://dvpiwn61wyvv6" path="res://assets/peixes/Atum.png" id="2_ecj37"]
@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://civ4aknndrq4c" path="res://assets/peixes/Tilapia.png" id="10_tva0f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_barnb"]
+size = Vector2(101, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_g2758"]
 animations = [{
@@ -93,8 +94,9 @@ position = Vector2(977, 502)
 script = ExtResource("1_wc2t7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.5, -1)
 shape = SubResource("RectangleShape2D_barnb")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CollisionShape2D"]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_g2758")
 animation = &"tilapia"

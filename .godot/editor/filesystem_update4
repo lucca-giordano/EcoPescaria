@@ -1,1 +1,7 @@
 res://scenes/Spawner-direita.tscn
+res://scripts/SpawnerDireita.cs
+res://scenes/TelaInicial.tscn
+res://scenes/JogoPrincipal.tscn
+res://objects/Player.tscn
+res://objects/BG.tscn
+res://scripts/BG.cs
