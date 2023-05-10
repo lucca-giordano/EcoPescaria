@@ -1,22 +1,19 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "ES3va6ZZQ/dP1bb6HS7K/cPtxjPGPEktPRVkSm92HI+usoIty86OBgBF5pMyV95t4OCa//9SpzD2T+I3s2RzOg==",
-=======
-  "dgSpecHash": "T6J/ptk+feiepGVHF/30rrFI/LYKzezZ2wKcBfXHTX7GQfz5/Ji+uG5Vhj2Wyc1UDAETavTXYiMqoOhDygUjxg==",
->>>>>>> pr/1
   "success": true,
-  "projectFilePath": "C:\\Users\\23024986\\Documents\\GitHub\\EcoPescaria\\EcoPescaria.csproj",
+  "projectFilePath": "C:\\Projetos\\EcoPescaria\\EcoPescaria.csproj",
   "expectedPackageFiles": [
-<<<<<<< HEAD
     "C:\\Users\\lucca\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.2\\godot.sourcegenerators.4.0.2.nupkg.sha512",
     "C:\\Users\\lucca\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.2\\godotsharp.4.0.2.nupkg.sha512",
     "C:\\Users\\lucca\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.2\\godotsharpeditor.4.0.2.nupkg.sha512"
-=======
-    "C:\\Users\\23024986\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.2\\godot.sourcegenerators.4.0.2.nupkg.sha512",
-    "C:\\Users\\23024986\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.2\\godotsharp.4.0.2.nupkg.sha512",
-    "C:\\Users\\23024986\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.2\\godotsharpeditor.4.0.2.nupkg.sha512"
->>>>>>> pr/1
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Projetos\\EcoPescaria\\.godot\\mono\\temp\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

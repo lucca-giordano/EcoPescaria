@@ -1,99 +1,60 @@
-[gd_scene load_steps=5 format=3 uid="uid://dx4sw1vb76c8q"]
+[gd_scene load_steps=4 format=3 uid="uid://efxh3m8twcr8"]
 
 [ext_resource type="Script" path="res://scripts/TelaInicial.cs" id="1_honlq"]
-[ext_resource type="Texture2D" uid="uid://havpay5avdou" path="res://cd1d10b6d98ddb8fce79fbba10dd5e30.jpg" id="2_vh3j5"]
-[ext_resource type="FontFile" uid="uid://dcis5qyihay6h" path="res://Symtext.ttf" id="3_s562y"]
+[ext_resource type="Texture2D" uid="uid://havpay5avdou" path="res://assets/background/BGTelaInicial.jpg" id="1_oaa5m"]
+[ext_resource type="FontFile" uid="uid://dcis5qyihay6h" path="res://files/Symtext.ttf" id="2_bt4su"]
 
-[sub_resource type="ViewportTexture" id="ViewportTexture_adkbu"]
-
-[node name="Node2D" type="Node2D"]
+[node name="TelaInicial" type="Node2D"]
 script = ExtResource("1_honlq")
 
-[node name="Cd1d10b6d98Ddb8Fce79Fbba10Dd5e30" type="Sprite2D" parent="."]
-position = Vector2(584, 344)
-scale = Vector2(2.02837, 1.41844)
-texture = ExtResource("2_vh3j5")
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(2.04255, 1.14894)
+texture = ExtResource("1_oaa5m")
 
-[node name="LabelTitulo" type="Label" parent="."]
-<<<<<<< HEAD
-offset_left = -373.0
-offset_top = 18.0
-offset_right = 1546.0
-offset_bottom = 113.0
-theme_override_font_sizes/font_size = 67
-=======
-offset_left = 272.0
-offset_top = 48.0
-offset_right = 885.0
-offset_bottom = 169.0
-theme_override_colors/font_color = Color(0, 1, 0, 1)
-theme_override_fonts/font = ExtResource("3_s562y")
-theme_override_font_sizes/font_size = 80
->>>>>>> pr/1
+[node name="Title" type="Label" parent="."]
+offset_right = 1152.0
+offset_bottom = 83.0
+theme_override_colors/font_color = Color(0.929412, 0.478431, 0.152941, 1)
+theme_override_fonts/font = ExtResource("2_bt4su")
+theme_override_font_sizes/font_size = 45
 text = "EcoPescaria"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="LabelDesc" type="Label" parent="."]
-<<<<<<< HEAD
-offset_left = -374.0
-offset_top = 86.0
-offset_right = 1546.0
-offset_bottom = 189.0
-theme_override_font_sizes/font_size = 38
-=======
-offset_left = -56.0
-offset_top = 176.0
-offset_right = 1205.0
-offset_bottom = 279.0
-theme_override_colors/font_color = Color(0.878431, 1, 0, 1)
-theme_override_fonts/font = ExtResource("3_s562y")
-theme_override_font_sizes/font_size = 30
->>>>>>> pr/1
-text = "Pesque consciente, não deixe os peixes serem extintos!!"
+[node name="Desc" type="Label" parent="."]
+offset_top = 59.0
+offset_right = 1152.0
+offset_bottom = 142.0
+theme_override_colors/font_color = Color(0.929412, 0.478431, 0.152941, 1)
+theme_override_fonts/font = ExtResource("2_bt4su")
+theme_override_font_sizes/font_size = 27
+text = "Pesque consciente, não deixe os peixes serem extintos!"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="ButtonIniciar" type="Button" parent="."]
-<<<<<<< HEAD
-offset_left = 407.0
-offset_top = 306.0
-offset_right = 786.0
-offset_bottom = 401.0
-=======
-offset_left = 320.0
-offset_top = 344.0
-offset_right = 827.0
-offset_bottom = 471.0
->>>>>>> pr/1
+offset_left = 374.0
+offset_top = 311.0
+offset_right = 760.0
+offset_bottom = 378.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 0, 1)
-theme_override_fonts/font = ExtResource("3_s562y")
-theme_override_font_sizes/font_size = 46
+theme_override_fonts/font = ExtResource("2_bt4su")
+theme_override_font_sizes/font_size = 40
 text = "Iniciar"
-icon = SubResource("ViewportTexture_adkbu")
 flat = true
 
-[node name="ButtonCreditos" type="Button" parent="."]
-<<<<<<< HEAD
-offset_left = 407.0
-offset_top = 402.0
-offset_right = 786.0
-offset_bottom = 497.0
-=======
-offset_left = 352.0
-offset_top = 474.0
-offset_right = 795.0
-offset_bottom = 585.0
->>>>>>> pr/1
+[node name="ButtonCredito" type="Button" parent="."]
+offset_left = 374.0
+offset_top = 383.0
+offset_right = 760.0
+offset_bottom = 445.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 0, 1)
-theme_override_fonts/font = ExtResource("3_s562y")
-theme_override_font_sizes/font_size = 46
-text = "Créditos"
+theme_override_fonts/font = ExtResource("2_bt4su")
+theme_override_font_sizes/font_size = 40
+text = "Creditos"
 flat = true
-
-[connection signal="pressed" from="ButtonIniciar" to="." method="_on_button_iniciar_pressed"]
-[connection signal="pressed" from="ButtonCreditos" to="." method="_on_button_creditos_pressed"]

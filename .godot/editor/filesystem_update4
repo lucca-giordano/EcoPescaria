@@ -1,11 +1,7 @@
 res://scenes/TelaInicial.tscn
 res://scenes/JogoPrincipal.tscn
-<<<<<<< HEAD
 res://objects/Player.tscn
 res://objects/BG.tscn
 res://scenes/TelaCreditos.tscn
 res://scripts/BG.cs
-=======
-res://scenes/Spawner-direita.tscn
-res://scenes/TelaCreditos.tscn
->>>>>>> pr/1
+res://scripts/TelaInicial.cs

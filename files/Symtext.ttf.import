@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://dcis5qyihay6h"
-path="res://.godot/imported/Symtext.ttf-2395b195caef5b7bdcb73b0d9963b714.fontdata"
+path="res://.godot/imported/Symtext.ttf-b67a76e2c44749843c828006397181a6.fontdata"
 
 [deps]
 
-source_file="res://Symtext.ttf"
-dest_files=["res://.godot/imported/Symtext.ttf-2395b195caef5b7bdcb73b0d9963b714.fontdata"]
+source_file="res://files/Symtext.ttf"
+dest_files=["res://.godot/imported/Symtext.ttf-b67a76e2c44749843c828006397181a6.fontdata"]
 
 [params]
 

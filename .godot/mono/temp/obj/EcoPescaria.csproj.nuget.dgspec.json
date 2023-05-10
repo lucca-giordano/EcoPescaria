@@ -1,31 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\23024986\\Documents\\GitHub\\EcoPescaria\\EcoPescaria.csproj": {}
+    "C:\\Projetos\\EcoPescaria\\EcoPescaria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\23024986\\Documents\\GitHub\\EcoPescaria\\EcoPescaria.csproj": {
+    "C:\\Projetos\\EcoPescaria\\EcoPescaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\23024986\\Documents\\GitHub\\EcoPescaria\\EcoPescaria.csproj",
+        "projectUniqueName": "C:\\Projetos\\EcoPescaria\\EcoPescaria.csproj",
         "projectName": "EcoPescaria",
-        "projectPath": "C:\\Users\\23024986\\Documents\\GitHub\\EcoPescaria\\EcoPescaria.csproj",
-        "packagesPath": "C:\\Users\\23024986\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\23024986\\Documents\\GitHub\\EcoPescaria\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "C:\\Projetos\\EcoPescaria\\EcoPescaria.csproj",
+        "packagesPath": "C:\\Users\\lucca\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\EcoPescaria\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Users\\23024986\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Users\\lucca\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\lucca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Users\\lucca\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
-=======
-          "C:\\Users\\23024986\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\23024986\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> pr/1
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

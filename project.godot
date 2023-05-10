@@ -16,10 +16,6 @@ config/features=PackedStringArray("4.0", "C#", "Forward Plus")
 
 [display]
 
-<<<<<<< HEAD
-=======
-window/size/mode=3
->>>>>>> pr/1
 window/size/initial_position_type=0
 
 [dotnet]

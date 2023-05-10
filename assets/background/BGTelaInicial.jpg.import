@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://havpay5avdou"
-path="res://.godot/imported/cd1d10b6d98ddb8fce79fbba10dd5e30.jpg-dc47f76ce5b78f6f7633f832376f4346.ctex"
+path="res://.godot/imported/BGTelaInicial.jpg-9d63ebe0eb919df001e3de68bcc112c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cd1d10b6d98ddb8fce79fbba10dd5e30.jpg"
-dest_files=["res://.godot/imported/cd1d10b6d98ddb8fce79fbba10dd5e30.jpg-dc47f76ce5b78f6f7633f832376f4346.ctex"]
+source_file="res://assets/background/BGTelaInicial.jpg"
+dest_files=["res://.godot/imported/BGTelaInicial.jpg-9d63ebe0eb919df001e3de68bcc112c3.ctex"]
 
 [params]
 
