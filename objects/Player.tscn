@@ -1,15 +1,26 @@
-[gd_scene load_steps=5 format=3 uid="uid://ctcaoygefc64n"]
+[gd_scene load_steps=7 format=3 uid="uid://ctcaoygefc64n"]
 
 [ext_resource type="Script" path="res://scripts/Player.cs" id="1_qbvck"]
-[ext_resource type="Texture2D" uid="uid://dvpiwn61wyvv6" path="res://assets/peixes/Atum.png" id="2_lsp1y"]
+[ext_resource type="Texture2D" uid="uid://jdpo51lpayr" path="res://assets/player/Idle (16 x 16).png" id="2_w3rbx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v487w"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pe1lt"]
+atlas = ExtResource("2_w3rbx")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0dx67"]
+atlas = ExtResource("2_w3rbx")
+region = Rect2(16, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_k1lop"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_lsp1y")
+"texture": SubResource("AtlasTexture_pe1lt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0dx67")
 }],
 "loop": true,
 "name": &"idle",
@@ -24,11 +35,13 @@ position = Vector2(-3.8147e-06, -3.8147e-06)
 shape = SubResource("RectangleShape2D_v487w")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-3.8147e-06, -3.8147e-06)
-scale = Vector2(0.178571, 0.178571)
+position = Vector2(4.76837e-07, -8.10623e-06)
+scale = Vector2(1.25, 1.25)
 sprite_frames = SubResource("SpriteFrames_k1lop")
 animation = &"idle"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2.208, 2.208)
+limit_left = 16
+limit_right = 2288
 limit_bottom = 609

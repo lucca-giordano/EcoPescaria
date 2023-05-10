@@ -6,29 +6,30 @@
 script = ExtResource("1_honlq")
 
 [node name="LabelTitulo" type="Label" parent="."]
-offset_left = 1.0
-offset_top = 108.0
-offset_right = 1920.0
-offset_bottom = 203.0
+offset_left = -373.0
+offset_top = 18.0
+offset_right = 1546.0
+offset_bottom = 113.0
 theme_override_font_sizes/font_size = 67
 text = "EcoPescaria"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="LabelDesc" type="Label" parent="."]
-offset_top = 176.0
-offset_right = 1920.0
-offset_bottom = 279.0
+offset_left = -374.0
+offset_top = 86.0
+offset_right = 1546.0
+offset_bottom = 189.0
 theme_override_font_sizes/font_size = 38
 text = "Pesque consciente, não deixe os peixes serem extintos!!"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="ButtonIniciar" type="Button" parent="."]
-offset_left = 781.0
-offset_top = 396.0
-offset_right = 1160.0
-offset_bottom = 491.0
+offset_left = 407.0
+offset_top = 306.0
+offset_right = 786.0
+offset_bottom = 401.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 0, 1)
@@ -37,10 +38,10 @@ text = "Iniciar"
 flat = true
 
 [node name="ButtonCreditos" type="Button" parent="."]
-offset_left = 781.0
-offset_top = 492.0
-offset_right = 1160.0
-offset_bottom = 587.0
+offset_left = 407.0
+offset_top = 402.0
+offset_right = 786.0
+offset_bottom = 497.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 0, 1)

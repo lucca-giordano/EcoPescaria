@@ -11,6 +11,6 @@ public partial class BG : ParallaxBackground
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-		scroll_offset.x -= 40*delta;
+		//scroll_offset.x -= 40*delta;
 	}
 }

@@ -14,17 +14,19 @@ scale = Vector2(3.6, 3.375)
 texture = ExtResource("1_cokiy")
 
 [node name="Meio" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.5, 1)
 motion_mirroring = Vector2(1152, 0)
 
 [node name="Bg2" type="Sprite2D" parent="Meio"]
-position = Vector2(576, 324)
+position = Vector2(576, 373)
 scale = Vector2(3.6, 3.375)
 texture = ExtResource("2_3r263")
 
 [node name="Frente" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.7, 1)
 motion_mirroring = Vector2(1152, 0)
 
 [node name="Bg2" type="Sprite2D" parent="Frente"]
-position = Vector2(576, 324)
+position = Vector2(576, 398)
 scale = Vector2(3.6, 3.375)
 texture = ExtResource("3_dngth")

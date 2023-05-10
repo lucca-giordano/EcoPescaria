@@ -40,3 +40,12 @@ C:\Users\23024522\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\refint
 C:\Users\23024522\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.pdb
 C:\Users\23024522\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.genruntimeconfig.cache
 C:\Users\23024522\Documents\GitHub\EcoPescaria\.godot\mono\temp\obj\Debug\ref\EcoPescaria.dll
+C:\Projetos\EcoPescaria\.godot\mono\temp\bin\Debug\EcoPescaria.deps.json
+C:\Projetos\EcoPescaria\.godot\mono\temp\bin\Debug\EcoPescaria.runtimeconfig.json
+C:\Projetos\EcoPescaria\.godot\mono\temp\bin\Debug\EcoPescaria.dll
+C:\Projetos\EcoPescaria\.godot\mono\temp\bin\Debug\EcoPescaria.pdb
+C:\Projetos\EcoPescaria\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Projetos\EcoPescaria\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.csproj.CopyComplete
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\EcoPescaria.genruntimeconfig.cache
+C:\Projetos\EcoPescaria\.godot\mono\temp\obj\Debug\ref\EcoPescaria.dll
