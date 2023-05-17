@@ -1,4 +1,8 @@
+CollisionShape2D
+Area2D
 TileMap
+CharacterBody2D
+ColorPicker
 Button
 Label
 ParallaxLayer
@@ -6,6 +10,4 @@ ParallaxBackground
 Sprite2D
 Camera2D
 AnimatedSprite2D
-CollisionShape2D
-CharacterBody2D
 Node2D
