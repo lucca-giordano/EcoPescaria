@@ -1,9 +1,9 @@
+Button
 TileMap
 CollisionShape2D
 Area2D
 CharacterBody2D
 ColorPicker
-Button
 Label
 ParallaxLayer
 ParallaxBackground
