@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://8dv1iykobil3"]
+
+[ext_resource type="Texture2D" uid="uid://qfw1ty84u7w3" path="res://assets/UI/UI.png" id="1_2b3gn"]
+[ext_resource type="FontFile" uid="uid://dcis5qyihay6h" path="res://files/Symtext.ttf" id="2_3rm5t"]
+
+[node name="UI" type="Node2D"]
+
+[node name="Ui" type="Sprite2D" parent="."]
+position = Vector2(90, 97)
+texture = ExtResource("1_2b3gn")
+
+[node name="LabelPontos" type="Label" parent="."]
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 168.0
+offset_bottom = 35.0
+theme_override_fonts/font = ExtResource("2_3rm5t")
+text = "Pontos: 00000"
+
+[node name="LabelPontos2" type="Label" parent="."]
+offset_left = 12.0
+offset_top = 160.0
+offset_right = 168.0
+offset_bottom = 187.0
+theme_override_fonts/font = ExtResource("2_3rm5t")
+text = "Extintos: 0/2"

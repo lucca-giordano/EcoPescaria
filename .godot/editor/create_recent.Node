@@ -1,13 +1,14 @@
+CollisionShape2D
+StaticBody2D
+Label
+Node2D
 Button
 TileMap
-CollisionShape2D
 Area2D
 CharacterBody2D
 ColorPicker
-Label
 ParallaxLayer
 ParallaxBackground
 Sprite2D
 Camera2D
 AnimatedSprite2D
-Node2D
