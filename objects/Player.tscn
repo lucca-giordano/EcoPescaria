@@ -1,35 +1,35 @@
-[gd_scene load_steps=14 format=3 uid="uid://ctcaoygefc64n"]
+[gd_scene load_steps=14 format=3 uid="uid://b72o07iwqqdux"]
 
 [ext_resource type="Script" path="res://scripts/Player.cs" id="1_qbvck"]
-[ext_resource type="Texture2D" uid="uid://ba3ivfkhgmn0h" path="res://Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Idle (32 x 32).png" id="2_745cp"]
-[ext_resource type="Texture2D" uid="uid://cbi3omj1lixfw" path="res://Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Jumping (32 x 32).png" id="3_ub66y"]
-[ext_resource type="Texture2D" uid="uid://tnpsvyu03un6" path="res://Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Running (32 x 32).png" id="3_vrasc"]
+[ext_resource type="Texture2D" uid="uid://ba3ivfkhgmn0h" path="res://assets/player/Idle (32 x 32).png" id="2_u1efe"]
+[ext_resource type="Texture2D" uid="uid://cbi3omj1lixfw" path="res://assets/player/Jumping (32 x 32).png" id="3_e4iwx"]
+[ext_resource type="Texture2D" uid="uid://tnpsvyu03un6" path="res://assets/player/Running (32 x 32).png" id="4_2bskp"]
 [ext_resource type="Texture2D" uid="uid://06jyis85mjpe" path="res://assets/player/FishingRod.png" id="4_jxqar"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v487w"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y8pbr"]
-atlas = ExtResource("2_745cp")
+atlas = ExtResource("2_u1efe")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bm81c"]
-atlas = ExtResource("2_745cp")
+atlas = ExtResource("2_u1efe")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_psjhm"]
-atlas = ExtResource("3_vrasc")
+atlas = ExtResource("4_2bskp")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b4qnj"]
-atlas = ExtResource("3_vrasc")
+atlas = ExtResource("4_2bskp")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1li7x"]
-atlas = ExtResource("3_vrasc")
+atlas = ExtResource("4_2bskp")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2sfac"]
-atlas = ExtResource("3_vrasc")
+atlas = ExtResource("4_2bskp")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_k1lop"]
@@ -62,7 +62,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_ub66y")
+"texture": ExtResource("3_e4iwx")
 }],
 "loop": true,
 "name": &"jump",

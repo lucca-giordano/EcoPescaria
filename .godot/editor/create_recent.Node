@@ -1,5 +1,6 @@
-Timer
+ParallaxBackground
 Node2D
+Timer
 TileMap
 CollisionShape2D
 StaticBody2D
@@ -9,7 +10,6 @@ Area2D
 CharacterBody2D
 ColorPicker
 ParallaxLayer
-ParallaxBackground
 Sprite2D
 Camera2D
 AnimatedSprite2D

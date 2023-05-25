@@ -12,6 +12,9 @@ public partial class JogoPrincipal : Node2D
 	public Node2D UI;
 	public Label pontos, extintos;
 
+	public Sprite2D Atum, Salmao, Tainha, Tilapia, Dourado, Leao, Palhaco, Lanterna, Cascudo;
+	public Sprite2D AtumInterr, SalmaoInterr, TainhaInterr, TilapiaInterr, DouradoInterr, LeaoInterr, PalhacoInterr, LanternaInterr, CascudoInterr;
+
 	//variaveis de estado do jogo
 	public bool pescando, pescado;
 	public int estacao;
@@ -31,6 +34,33 @@ public partial class JogoPrincipal : Node2D
 		inverno = GetNode<Sprite2D>("UI/Estacoes/Inverno");
 		primavera = GetNode<Sprite2D>("UI/Estacoes/Primavera");
 
+		Atum = GetNode<Sprite2D>("UI/Peixes/Atum");
+		AtumInterr = GetNode<Sprite2D>("UI/Interrogacoes/InterrogacaoAtum");
+
+		Salmao = GetNode<Sprite2D>("UI/Peixes/Salmao");
+		SalmaoInterr = GetNode<Sprite2D>("UI/Interrogacoes/InterrogacaoSalmao");
+
+		Tainha = GetNode<Sprite2D>("UI/Peixes/Tainha");
+		TainhaInterr = GetNode<Sprite2D>("UI/Interrogacoes/InterrogacaoTainha");
+
+		Tilapia = GetNode<Sprite2D>("UI/Peixes/Tilapia");
+		TilapiaInterr = GetNode<Sprite2D>("UI/Interrogacoes/InterrogacaoTilapia");
+
+		Dourado = GetNode<Sprite2D>("UI/Peixes/Dourado");
+		DouradoInterr = GetNode<Sprite2D>("UI/Interrogacoes/InterrogacaoDourado");
+
+		Leao = GetNode<Sprite2D>("UI/Peixes/PeixeLeao");
+		LeaoInterr = GetNode<Sprite2D>("UI/Interrogacoes/InterrogacaoLeao");
+
+		Palhaco = GetNode<Sprite2D>("UI/Peixes/PeixePalhaco");
+		PalhacoInterr = GetNode<Sprite2D>("UI/Interrogacoes/InterrogacaoPalhaco");
+
+		Lanterna = GetNode<Sprite2D>("UI/Peixes/PeixeLanterna");
+		LanternaInterr = GetNode<Sprite2D>("UI/Interrogacoes/InterrogacaoLanterna");
+
+		Cascudo = GetNode<Sprite2D>("UI/Peixes/Cascudo");
+		CascudoInterr = GetNode<Sprite2D>("UI/Interrogacoes/InterrogacaoCascudo");
+
 		pescando = false;
 		pescado = false;
 		estacao = 0;
@@ -49,7 +79,6 @@ public partial class JogoPrincipal : Node2D
 	
 	public override void _Process(double delta)
 	{
-
 		//atualiza os pontos e extintos
 		pontos.Text = "PONTOS: " + game.pontos.ToString();
 		extintos.Text = "EXTINTOS: " + game.extintos.ToString() + "/2";
@@ -149,7 +178,7 @@ public partial class JogoPrincipal : Node2D
 
 	private void _on_timer_timeout()
 	{
-		GD.Print("Tempo recomeçou!");
+		//GD.Print("Tempo recomeçou!");
 		estacao++;
 		if(estacao == 4){
 			estacao = 0;

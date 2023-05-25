@@ -1,11 +1,12 @@
-[gd_scene load_steps=18 format=3 uid="uid://n8ktpirbn673"]
+[gd_scene load_steps=19 format=3 uid="uid://n8ktpirbn673"]
 
 [ext_resource type="Script" path="res://scripts/JogoPrincipal.cs" id="1_2cvfd"]
 [ext_resource type="Texture2D" uid="uid://bhv7qt06y0yqw" path="res://assets/tilesets/Assets.png" id="1_2gfjb"]
 [ext_resource type="Texture2D" uid="uid://457dahsqqpef" path="res://assets/Tiles/Tiles/Assets/Assets.png" id="3_k7cdo"]
-[ext_resource type="PackedScene" uid="uid://ctcaoygefc64n" path="res://objects/Player.tscn" id="3_u6xmu"]
+[ext_resource type="PackedScene" uid="uid://b72o07iwqqdux" path="res://objects/Player.tscn" id="3_u6xmu"]
 [ext_resource type="Texture2D" uid="uid://bc0hstpga6avs" path="res://assets/decors/Decors.png" id="4_6yqif"]
 [ext_resource type="PackedScene" uid="uid://8dv1iykobil3" path="res://objects/UI.tscn" id="6_2unto"]
+[ext_resource type="PackedScene" uid="uid://bjk3gm4hlo4vr" path="res://objects/BG.tscn" id="7_hx8mp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6j6bj"]
 texture = ExtResource("1_2gfjb")
@@ -2227,6 +2228,8 @@ autostart = true
 
 [node name="Player" parent="." instance=ExtResource("3_u6xmu")]
 position = Vector2(296, 473)
+
+[node name="BackGround" parent="." instance=ExtResource("7_hx8mp")]
 
 [connection signal="body_entered" from="AreaDePesca" to="." method="_on_area_de_pesca_body_entered"]
 [connection signal="body_exited" from="AreaDePesca" to="." method="_on_area_de_pesca_body_exited"]

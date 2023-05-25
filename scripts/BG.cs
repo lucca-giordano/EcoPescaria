@@ -3,14 +3,49 @@ using System;
 
 public partial class BG : ParallaxBackground
 {
-	// Called when the node enters the scene tree for the first time.
+	game game = new game();
+	
+	public Sprite2D Verao, Outono, Inverno, Primavera;
+	
 	public override void _Ready()
 	{
+		Verao = GetNode<Sprite2D>("BgVerao");
+		Outono = GetNode<Sprite2D>("BgOutono");
+		Inverno = GetNode<Sprite2D>("BgInverno");
+		Primavera = GetNode<Sprite2D>("BgPrimavera");
+
+		Verao.Hide();
+		Outono.Hide();
+		Inverno.Hide();
+		Primavera.Hide();
+
 	}
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-		//scroll_offset.x -= 40*delta;
+		if(game.estacao == "verao"){
+			Verao.Show();
+			Outono.Hide();
+			Inverno.Hide();
+			Primavera.Hide();
+		}
+		else if(game.estacao == "outono"){
+			Verao.Hide();
+			Outono.Show();
+			Inverno.Hide();
+			Primavera.Hide();
+		}
+		else if(game.estacao == "inverno"){
+			Verao.Hide();
+			Outono.Hide();
+			Inverno.Show();
+			Primavera.Hide();
+		}
+		else if(game.estacao == "primavera"){
+			Verao.Hide();
+			Outono.Hide();
+			Inverno.Hide();
+			Primavera.Show();
+		}
 	}
 }
