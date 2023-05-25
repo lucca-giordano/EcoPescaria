@@ -1,9 +1,10 @@
+Timer
+Node2D
+TileMap
 CollisionShape2D
 StaticBody2D
 Label
-Node2D
 Button
-TileMap
 Area2D
 CharacterBody2D
 ColorPicker

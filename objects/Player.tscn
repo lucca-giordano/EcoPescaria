@@ -102,7 +102,7 @@ metadata/_edit_lock_ = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(3.045, 3.045)
-limit_left = 16
+limit_left = -143
 limit_top = 160
 limit_right = 1005
 limit_bottom = 609

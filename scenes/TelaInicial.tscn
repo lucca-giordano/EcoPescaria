@@ -59,5 +59,19 @@ theme_override_font_sizes/font_size = 40
 text = "Creditos"
 flat = true
 
+[node name="ButtonSair" type="Button" parent="."]
+offset_left = 374.0
+offset_top = 457.0
+offset_right = 760.0
+offset_bottom = 524.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 0, 1)
+theme_override_fonts/font = ExtResource("2_bt4su")
+theme_override_font_sizes/font_size = 40
+text = "Sair do jogo"
+flat = true
+
 [connection signal="pressed" from="ButtonIniciar" to="." method="_on_button_iniciar_pressed"]
 [connection signal="pressed" from="ButtonCredito" to="." method="_on_button_credito_pressed"]
+[connection signal="pressed" from="ButtonSair" to="." method="_on_button_sair_pressed"]
