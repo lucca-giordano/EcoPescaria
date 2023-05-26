@@ -56,35 +56,35 @@ public partial class UI : Node2D
 			Atum.Show();
 			AtumInterr.Hide();
 		}
-		else if(game.descobertas[1] == "Salmao"){
+		if(game.descobertas[1] == "Salmao"){
 			Salmao.Show();
 			SalmaoInterr.Hide();
 		}
-		else if(game.descobertas[2] == "Tainha"){
+		if(game.descobertas[2] == "Tainha"){
 			Tainha.Show();
 			TainhaInterr.Hide();
 		}
-		else if(game.descobertas[3] == "Tilapia"){
+		if(game.descobertas[3] == "Tilapia"){
 			Tilapia.Show();
 			TilapiaInterr.Hide();
 		}
-		else if(game.descobertas[4] == "Dourado"){
+		if(game.descobertas[4] == "Dourado"){
 			Dourado.Show();
 			DouradoInterr.Hide();
 		}
-		else if(game.descobertas[5] == "Leao"){
+		if(game.descobertas[5] == "Leao"){
 			Leao.Show();
 			LeaoInterr.Hide();
 		}
-		else if(game.descobertas[6] == "Palhaco"){
+		if(game.descobertas[6] == "Palhaco"){
 			Palhaco.Show();
 			PalhacoInterr.Hide();
 		}
-		else if(game.descobertas[7] == "Lanterna"){
+		if(game.descobertas[7] == "Lanterna"){
 			Lanterna.Show();
 			LanternaInterr.Hide();
 		}
-		else if(game.descobertas[8] == "Cascudo"){
+		if(game.descobertas[8] == "Cascudo"){
 			Cascudo.Show();
 			CascudoInterr.Hide();
 		}

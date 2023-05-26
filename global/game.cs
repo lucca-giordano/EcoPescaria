@@ -26,7 +26,7 @@ public partial class game : Node
 		if(pesca <= 20){
 			peixe = "Atum";
 		}
-		else if(pesca <= 40){
+		else  if(pesca <= 40){
 			peixe = "Salmao";
 		}
 		else if(pesca <= 60){
