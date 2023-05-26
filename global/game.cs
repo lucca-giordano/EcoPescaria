@@ -21,7 +21,7 @@ public partial class game : Node
 		var random = new RandomNumberGenerator();
 		JogoPrincipal jogo = new JogoPrincipal();
 		
-		var pesca = random.RandiRange(0, 150);
+		var pesca = random.RandiRange(0, 100);
 
 		if(pesca <= 20){
 			peixe = "Atum";
@@ -38,7 +38,7 @@ public partial class game : Node
 		else if(pesca <= 85){
 			peixe = "Dourado";
 		}
-		else if(pesca <= 150){      //0 = verao; 1 = outono; 2 = inverno; 3 = primavera
+		else if(pesca <= 100){      //0 = verao; 1 = outono; 2 = inverno; 3 = primavera
 			if(estacao == "verao"){
 				peixe = "Palhaco";
 			}

@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://bjk3gm4hlo4vr"]
+[gd_scene load_steps=6 format=3 uid="uid://4jgq4lk8gr1o"]
 
 [ext_resource type="Script" path="res://scripts/BG.cs" id="1_2nix3"]
-[ext_resource type="Texture2D" uid="uid://cbtgd3joga357" path="res://assets/background/BgVerao.png" id="1_pp0k3"]
-[ext_resource type="Texture2D" uid="uid://c4vlll0c76v76" path="res://assets/background/BgOutono.png" id="2_hage1"]
-[ext_resource type="Texture2D" uid="uid://v68e3hralivo" path="res://assets/background/BgPrimavera.png" id="3_cwh44"]
-[ext_resource type="Texture2D" uid="uid://bvb8vxv6stdgk" path="res://assets/background/BgInverno.png" id="4_7fc6s"]
+[ext_resource type="Texture2D" uid="uid://c36p0jg8nw71n" path="res://assets/background/BgVerao.png" id="1_pp0k3"]
+[ext_resource type="Texture2D" uid="uid://dt8v6lwgblxqg" path="res://assets/background/BgOutono.png" id="2_hage1"]
+[ext_resource type="Texture2D" uid="uid://60iy5d5pkwd0" path="res://assets/background/BgPrimavera.png" id="3_cwh44"]
+[ext_resource type="Texture2D" uid="uid://bpubf0jaq5cj0" path="res://assets/background/BgInverno.png" id="4_7fc6s"]
 
 [node name="BackGround" type="ParallaxBackground"]
 script = ExtResource("1_2nix3")

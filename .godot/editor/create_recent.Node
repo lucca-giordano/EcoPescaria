@@ -1,3 +1,4 @@
+AnimatedSprite2D
 ParallaxBackground
 Node2D
 Timer
@@ -12,4 +13,3 @@ ColorPicker
 ParallaxLayer
 Sprite2D
 Camera2D
-AnimatedSprite2D

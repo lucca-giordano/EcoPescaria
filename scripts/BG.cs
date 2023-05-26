@@ -23,6 +23,7 @@ public partial class BG : ParallaxBackground
 
 	public override void _Process(double delta)
 	{
+		
 		if(game.estacao == "verao"){
 			Verao.Show();
 			Outono.Hide();
@@ -47,5 +48,6 @@ public partial class BG : ParallaxBackground
 			Inverno.Hide();
 			Primavera.Show();
 		}
+		
 	}
 }
