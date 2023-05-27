@@ -86,7 +86,7 @@ public partial class JogoPrincipal : Node2D
 		if(pescando && !pescado){
 			if(Input.IsActionJustPressed("pescar")){
 				pescado = true;
-				game.pescar();
+				game.pescar(rod);
 			}
 		}
 

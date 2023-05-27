@@ -1,7 +1,7 @@
 res://scenes/JogoPrincipal.tscn
+res://scripts/JogoPrincipal.cs
 res://objects/BG.tscn
 res://scenes/TelaInicial.tscn
 res://objects/Player.tscn
 res://objects/UI.tscn
 res://scenes/TelaCreditos.tscn
-res://scripts/Player.cs
