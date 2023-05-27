@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ba3ivfkhgmn0h" path="res://assets/player/Idle (32 x 32).png" id="2_u1efe"]
 [ext_resource type="Texture2D" uid="uid://cbi3omj1lixfw" path="res://assets/player/Jumping (32 x 32).png" id="3_e4iwx"]
 [ext_resource type="Texture2D" uid="uid://tnpsvyu03un6" path="res://assets/player/Running (32 x 32).png" id="4_2bskp"]
-[ext_resource type="Texture2D" uid="uid://06jyis85mjpe" path="res://assets/player/FishingRod.png" id="4_jxqar"]
+[ext_resource type="Texture2D" uid="uid://ceh6gmafkqqfi" path="res://assets/player/FishingRod.png" id="4_jxqar"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v487w"]
 
@@ -98,6 +98,7 @@ position = Vector2(1, -10)
 scale = Vector2(1.25, 1.25)
 sprite_frames = SubResource("SpriteFrames_k1lop")
 animation = &"run"
+frame = 1
 metadata/_edit_lock_ = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -108,8 +109,7 @@ limit_right = 1005
 limit_bottom = 609
 
 [node name="FishingRod" type="Sprite2D" parent="."]
-position = Vector2(24, -11)
+position = Vector2(26, -13)
 texture = ExtResource("4_jxqar")
 
 [connection signal="ready" from="." to="." method="_on_ready"]
-[connection signal="ready" from="FishingRod" to="." method="_on_fishing_rod_ready"]
