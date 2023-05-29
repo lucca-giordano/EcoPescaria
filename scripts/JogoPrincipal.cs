@@ -7,10 +7,11 @@ public partial class JogoPrincipal : Node2D
 	game game = new game();
 
 	//variaveis de elementos do jogo
-	public Sprite2D rod, verao, outono, inverno, primavera;
+	public Sprite2D rod, rodF, verao, outono, inverno, primavera;
 	public CharacterBody2D Player;
 	public Node2D UI;
 	public Label pontos, extintos;
+	public AnimatedSprite2D pesca;
 
 	public Sprite2D Atum, Salmao, Tainha, Tilapia, Dourado, Leao, Palhaco, Lanterna, Cascudo;
 	public Sprite2D AtumInterr, SalmaoInterr, TainhaInterr, TilapiaInterr, DouradoInterr, LeaoInterr, PalhacoInterr, LanternaInterr, CascudoInterr;
@@ -23,6 +24,8 @@ public partial class JogoPrincipal : Node2D
 	public override void _Ready()
 	{
 		rod = GetNode<Sprite2D>("Player/FishingRod");
+		rodF = GetNode<Sprite2D>("Player/FishingRodFish");
+		pesca = GetNode<AnimatedSprite2D>("Player/PeixesNaVara");
 		Player = GetNode<CharacterBody2D>("Player");
 		UI = GetNode<Node2D>("UI");
 
@@ -67,10 +70,13 @@ public partial class JogoPrincipal : Node2D
 
 		UI.Hide();
 		rod.Hide();
+		rodF.Hide();
 		verao.Hide();
 		outono.Hide();
 		inverno.Hide();
 		primavera.Hide();
+
+		pesca.Play("Idle");
 
 		GD.Print("DEBUG:\n Rod = " + rod + "\n PLayer = " + Player + "\n UI = " + UI + "\n pontos = " + pontos + "\n extintos = " + extintos + "\n verao = " + verao + "\n outono = " + outono + "\n inverno = " + inverno + "\n primavera = " + primavera);
 
@@ -86,17 +92,53 @@ public partial class JogoPrincipal : Node2D
 		if(pescando && !pescado){
 			if(Input.IsActionJustPressed("pescar")){
 				pescado = true;
-				game.pescar(rod);
+				rod.Hide();
+				rodF.Show();
+				game.pescar();
+
+				if(game.peixe == "Atum"){
+					pesca.Play("Atum");
+				}
+				if(game.peixe == "Salmao"){
+					pesca.Play("Salmao");
+				}
+				if(game.peixe == "Tainha"){
+					pesca.Play("Tainha");
+				}
+				if(game.peixe == "Tilapia"){
+					pesca.Play("Tilapia");
+				}
+				if(game.peixe == "Dourado"){
+					pesca.Play("Dourado");
+				}
+				if(game.peixe == "Leao"){
+					pesca.Play("Leao");
+				}
+				if(game.peixe == "Palhaco"){
+					pesca.Play("Palhaco");
+				}
+				if(game.peixe == "Lanterna"){
+					pesca.Play("Lanterna");
+				}
+				if(game.peixe == "Cascudo"){
+					pesca.Play("Cascudo");
+				}
 			}
 		}
 
 		if(pescado){
 			if(Input.IsActionJustPressed("pegar")){
 				game.pegar();
+				rod.Show();
+				rodF.Hide();
+				pesca.Play("Idle");
 				pescado = false;
 			}
 			else if(Input.IsActionJustPressed("soltar")){
 				game.soltar();
+				rod.Show();
+				rodF.Hide();
+				pesca.Play("Idle");
 				pescado = false;
 			}
 		}
@@ -152,6 +194,8 @@ public partial class JogoPrincipal : Node2D
 		if(body == Player){
 			pescando = false;
 			rod.Hide();
+			rodF.Hide();
+			pesca.Play("Idle");
 			//GD.Print("SAIU:\n Body = " + body + "\n PLayer = " + Player);
 
 			if(pescado){

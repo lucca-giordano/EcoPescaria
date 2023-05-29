@@ -2133,7 +2133,7 @@ size = Vector2(78, 177)
 size = Vector2(97, 49)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5tnni"]
-size = Vector2(40.5, 8.5)
+size = Vector2(34.5, 8.5)
 
 [node name="JogoPrincipal" type="Node2D"]
 script = ExtResource("1_2cvfd")
@@ -2216,7 +2216,7 @@ position = Vector2(-64.5, 520.5)
 shape = SubResource("RectangleShape2D_xyedi")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="AreaDaCasa"]
-position = Vector2(-8.25, 541.25)
+position = Vector2(-11.25, 541.25)
 shape = SubResource("RectangleShape2D_5tnni")
 
 [node name="UI" parent="." instance=ExtResource("6_2unto")]

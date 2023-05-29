@@ -1,5 +1,5 @@
 2a60927148abd1d33b818b535e306557
-::res://::1685212565
+::res://::1685392418
 README.md::TextFile::-1::1684885955::0::1::::<><>::
 ::res://assets/::1685125659
 Cursor.png::CompressedTexture2D::7619365544580150649::1683492832::1683492832::1::::<><>::
@@ -16,18 +16,20 @@ Inverno.png::CompressedTexture2D::6257866689276590022::1683492832::1683492832::1
 Outono.png::CompressedTexture2D::6190027502798975188::1683492832::1683492832::1::::<><>::
 Primavera.png::CompressedTexture2D::4757066590598091423::1683492832::1683492832::1::::<><>::
 Verao.png::CompressedTexture2D::5632595672498627882::1683492832::1683492832::1::::<><>::
-::res://assets/peixes/::1685034588
+::res://assets/peixes/::1685392796
 Atum.png::CompressedTexture2D::8664719189101096797::1683762903::1683762877::1::::<><>::
 Cascudo.png::CompressedTexture2D::8482768284427777027::1683501969::1683502000::1::::<><>::
 Dourado.png::CompressedTexture2D::7629473889300302671::1683492832::1683492832::1::::<><>::
 Peixe Lanterna.png::CompressedTexture2D::2496349797313803731::1683492832::1683492832::1::::<><>::
 Peixe Leão.png::CompressedTexture2D::2427299884866338849::1683492832::1683492832::1::::<><>::
 Peixe Palhaço.png::CompressedTexture2D::1438552798464696226::1685034586::1685034588::1::::<><>::
+PlaceHolder.png::CompressedTexture2D::2082291308714250935::1685392796::1685392799::1::::<><>::
 Salmao.png::CompressedTexture2D::5799544127304455045::1683501838::1683502000::1::::<><>::
 Tainha.png::CompressedTexture2D::8132143869124127536::1683501930::1683502000::1::::<><>::
 Tilapia.png::CompressedTexture2D::5379465388027259956::1683492832::1683492832::1::::<><>::
-::res://assets/player/::1685125663
+::res://assets/player/::1685391783
 FishingRod.png::CompressedTexture2D::5069940958277329586::1685125656::1685125663::1::::<><>::
+FishingRodFish.png::CompressedTexture2D::9014449003955931538::1685391782::1685391783::1::::<><>::
 Hurt (32 x 32).png::CompressedTexture2D::1491675916760907487::1684514594::1685035936::1::::<><>::
 Idle (32 x 32).png::CompressedTexture2D::2444746776812257709::1684514594::1685035936::1::::<><>::
 Jumping (32 x 32).png::CompressedTexture2D::4861270955348645644::1684514594::1685035936::1::::<><>::
@@ -63,18 +65,18 @@ UI.png::CompressedTexture2D::1134726628019111832::1684973545::1684971825::1::::<
 ::res://files/::1683754638
 Symtext.ttf::FontFile::7317302117896564213::1683749166::1683749356::1::::<><>::
 ::res://global/::1685118788
-game.cs::CSharpScript::-1::1685118788::0::1::::<><>::
-::res://objects/::1685150805
-BG.tscn::PackedScene::2054450280617266694::1685126021::0::1::::<><>::res://scripts/BG.cs<>uid://c36p0jg8nw71n<>uid://dt8v6lwgblxqg<>uid://60iy5d5pkwd0<>uid://bpubf0jaq5cj0
-Player.tscn::PackedScene::4689098256343337867::1685150805::0::1::::<><>::res://scripts/Player.cs<>uid://ba3ivfkhgmn0h<>uid://cbi3omj1lixfw<>uid://tnpsvyu03un6<>uid://ceh6gmafkqqfi
-UI.tscn::PackedScene::2323746918542090074::1685126021::0::1::::<><>::uid://qfw1ty84u7w3<>res://scripts/UI.cs<>uid://dcis5qyihay6h<>uid://dvpiwn61wyvv6<>uid://covlv58tl2w1r<>uid://dn4jhr7bkybmu<>uid://civ4aknndrq4c<>uid://dgx1k5ifjh408<>uid://bat2jlj2hbtb2<>uid://uq30wdsu8107<>uid://bbtirtagatgr8<>uid://ds4d7pfw4hqnb<>uid://cvfmfdrafhd8q<>uid://cugq338inypce<>uid://b81mgrv2cl4l4<>uid://cmiqa7enqvfgc<>uid://b0bqdm7flrpsb
-::res://scenes/::1685126021
-JogoPrincipal.tscn::PackedScene::981221334173225200::1685126021::0::1::::<><>::res://scripts/JogoPrincipal.cs<>uid://bhv7qt06y0yqw<>uid://457dahsqqpef<>uid://b72o07iwqqdux<>uid://bc0hstpga6avs<>uid://8dv1iykobil3<>uid://4jgq4lk8gr1o
-TelaCreditos.tscn::PackedScene::8726531702728255246::1685126021::0::1::::<><>::res://scripts/TelaCreditos.cs
-TelaInicial.tscn::PackedScene::292487745430475371::1685126021::0::1::::<><>::res://scripts/TelaInicial.cs<>uid://havpay5avdou<>uid://dcis5qyihay6h
-::res://scripts/::1685126100
+game.cs::CSharpScript::-1::1685392267::0::1::::<><>::
+::res://objects/::1685392708
+BG.tscn::PackedScene::2054450280617266694::1685392707::0::1::::<><>::res://scripts/BG.cs<>uid://c36p0jg8nw71n<>uid://dt8v6lwgblxqg<>uid://60iy5d5pkwd0<>uid://bpubf0jaq5cj0
+Player.tscn::PackedScene::4689098256343337867::1685392707::0::1::::<><>::res://scripts/Player.cs<>uid://ba3ivfkhgmn0h<>uid://cbi3omj1lixfw<>uid://tnpsvyu03un6<>uid://ceh6gmafkqqfi<>uid://d1owwmyxrx5wg<>uid://dvpiwn61wyvv6<>uid://ds4d7pfw4hqnb<>uid://dgx1k5ifjh408<>uid://bat2jlj2hbtb2<>uid://uq30wdsu8107<>uid://covlv58tl2w1r<>uid://dn4jhr7bkybmu
+UI.tscn::PackedScene::2323746918542090074::1685392708::0::1::::<><>::uid://qfw1ty84u7w3<>res://scripts/UI.cs<>uid://dcis5qyihay6h<>uid://dvpiwn61wyvv6<>uid://covlv58tl2w1r<>uid://dn4jhr7bkybmu<>uid://civ4aknndrq4c<>uid://dgx1k5ifjh408<>uid://bat2jlj2hbtb2<>uid://uq30wdsu8107<>uid://bbtirtagatgr8<>uid://ds4d7pfw4hqnb<>uid://cvfmfdrafhd8q<>uid://cugq338inypce<>uid://b81mgrv2cl4l4<>uid://cmiqa7enqvfgc<>uid://b0bqdm7flrpsb
+::res://scenes/::1685392708
+JogoPrincipal.tscn::PackedScene::981221334173225200::1685392707::0::1::::<><>::res://scripts/JogoPrincipal.cs<>uid://bhv7qt06y0yqw<>uid://457dahsqqpef<>uid://b72o07iwqqdux<>uid://bc0hstpga6avs<>uid://8dv1iykobil3<>uid://4jgq4lk8gr1o
+TelaCreditos.tscn::PackedScene::8726531702728255246::1685392708::0::1::::<><>::res://scripts/TelaCreditos.cs
+TelaInicial.tscn::PackedScene::292487745430475371::1685392707::0::1::::<><>::res://scripts/TelaInicial.cs<>uid://havpay5avdou<>uid://dcis5qyihay6h
+::res://scripts/::1685212969
 BG.cs::CSharpScript::-1::1685118788::0::1::::<><>::
-JogoPrincipal.cs::CSharpScript::-1::1685045614::0::1::::<><>::
+JogoPrincipal.cs::CSharpScript::-1::1685392704::0::1::::<><>::
 Player.cs::CSharpScript::-1::1685126100::0::1::::<><>::
 TelaCreditos.cs::CSharpScript::-1::1683583222::0::1::::<><>::
 TelaInicial.cs::CSharpScript::-1::1684975376::0::1::::<><>::

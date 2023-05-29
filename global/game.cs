@@ -10,21 +10,18 @@ public partial class game : Node
 	public int extintos = 0;
 	public int extintosLim = 3;
 
-	public string peixe;
+	public static string peixe;
 
 	public static string estacao;
 
 	public static String[] descobertas = new String[9];
 
-	public void pescar(Sprite2D Vara){
+	public void pescar(){
 
 		var random = new RandomNumberGenerator();
-		Tween tween = GetTree().CreateTween();
 		JogoPrincipal jogo = new JogoPrincipal();
 		
 		var pesca = random.RandiRange(0, 100);
-
-		tween.TweenProperty(Vara, , 0, 90, 0.5f);
 
 		if(pesca <= 20){
 			peixe = "Atum";

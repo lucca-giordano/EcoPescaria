@@ -1,10 +1,21 @@
-[gd_scene load_steps=14 format=3 uid="uid://b72o07iwqqdux"]
+[gd_scene load_steps=26 format=3 uid="uid://b72o07iwqqdux"]
 
 [ext_resource type="Script" path="res://scripts/Player.cs" id="1_qbvck"]
 [ext_resource type="Texture2D" uid="uid://ba3ivfkhgmn0h" path="res://assets/player/Idle (32 x 32).png" id="2_u1efe"]
 [ext_resource type="Texture2D" uid="uid://cbi3omj1lixfw" path="res://assets/player/Jumping (32 x 32).png" id="3_e4iwx"]
 [ext_resource type="Texture2D" uid="uid://tnpsvyu03un6" path="res://assets/player/Running (32 x 32).png" id="4_2bskp"]
 [ext_resource type="Texture2D" uid="uid://ceh6gmafkqqfi" path="res://assets/player/FishingRod.png" id="4_jxqar"]
+[ext_resource type="Texture2D" uid="uid://d1owwmyxrx5wg" path="res://assets/player/FishingRodFish.png" id="6_k3y6s"]
+[ext_resource type="Texture2D" uid="uid://dvpiwn61wyvv6" path="res://assets/peixes/Atum.png" id="7_8o4n6"]
+[ext_resource type="Texture2D" uid="uid://ds4d7pfw4hqnb" path="res://assets/peixes/Cascudo.png" id="8_pmycc"]
+[ext_resource type="Texture2D" uid="uid://dgx1k5ifjh408" path="res://assets/peixes/Dourado.png" id="9_rrftn"]
+[ext_resource type="Texture2D" uid="uid://bat2jlj2hbtb2" path="res://assets/peixes/Peixe Leão.png" id="10_g7npk"]
+[ext_resource type="Texture2D" uid="uid://4wxbe4yipdsp" path="res://assets/peixes/PlaceHolder.png" id="10_nbhtf"]
+[ext_resource type="Texture2D" uid="uid://bbtirtagatgr8" path="res://assets/peixes/Peixe Lanterna.png" id="11_0fhnl"]
+[ext_resource type="Texture2D" uid="uid://uq30wdsu8107" path="res://assets/peixes/Peixe Palhaço.png" id="11_y31cv"]
+[ext_resource type="Texture2D" uid="uid://covlv58tl2w1r" path="res://assets/peixes/Salmao.png" id="12_x20b5"]
+[ext_resource type="Texture2D" uid="uid://dn4jhr7bkybmu" path="res://assets/peixes/Tainha.png" id="13_f8r0i"]
+[ext_resource type="Texture2D" uid="uid://civ4aknndrq4c" path="res://assets/peixes/Tilapia.png" id="15_vfgjo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v487w"]
 
@@ -86,6 +97,89 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_hnjq3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_8o4n6")
+}],
+"loop": true,
+"name": &"Atum",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_pmycc")
+}],
+"loop": true,
+"name": &"Cascudo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_rrftn")
+}],
+"loop": true,
+"name": &"Dourado",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_nbhtf")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_0fhnl")
+}],
+"loop": true,
+"name": &"Lanterna",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_g7npk")
+}],
+"loop": true,
+"name": &"Leao",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_y31cv")
+}],
+"loop": true,
+"name": &"Palhaco",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_x20b5")
+}],
+"loop": true,
+"name": &"Salmao",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_f8r0i")
+}],
+"loop": true,
+"name": &"Tainha",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_vfgjo")
+}],
+"loop": true,
+"name": &"Tilapia",
+"speed": 5.0
+}]
+
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_qbvck")
 
@@ -111,5 +205,16 @@ limit_bottom = 609
 [node name="FishingRod" type="Sprite2D" parent="."]
 position = Vector2(26, -13)
 texture = ExtResource("4_jxqar")
+
+[node name="FishingRodFish" type="Sprite2D" parent="."]
+position = Vector2(26, -13)
+texture = ExtResource("6_k3y6s")
+
+[node name="PeixesNaVara" type="AnimatedSprite2D" parent="."]
+position = Vector2(41, -8)
+rotation = -1.5708
+scale = Vector2(0.216, 0.216)
+sprite_frames = SubResource("SpriteFrames_hnjq3")
+animation = &"Lanterna"
 
 [connection signal="ready" from="." to="." method="_on_ready"]
